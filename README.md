@@ -1,8 +1,5 @@
 Asap Symbol
 ===================
-Readme
-
-# Asap Symbol files  
 ###(*First Release*)
 
 **Omnibus-Type**  
