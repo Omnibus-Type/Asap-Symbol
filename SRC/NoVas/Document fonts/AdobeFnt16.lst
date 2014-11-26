@@ -1,0 +1,74 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Asap-Symbol
+FamilyName:Asap
+StyleName:Symbol
+MenuName:Asap Symbol
+StyleBits:0
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Asap Symbol
+WritingScript:Roman
+OutlineFileName:\Asap-Symbol.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:74812
+FileModTime:1416602059
+NameArray:0,Mac,4,Asap Symbol
+NameArray:0,Win,1,Asap Symbol
+NameArray:0,Win,16,Asap
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Chivo-Black
+FamilyName:Chivo
+StyleName:Black
+MenuName:Chivo Light
+StyleBits:2
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Chivo Black
+WritingScript:Roman
+OutlineFileName:\Chivo-Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:51128
+FileModTime:1410283085
+NameArray:0,Mac,4,Chivo Black
+NameArray:0,Win,1,Chivo Light
+NameArray:0,Win,16,Chivo
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Chivo-Regular
+FamilyName:Chivo
+StyleName:Regular
+MenuName:Chivo
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Chivo
+WritingScript:Roman
+OutlineFileName:\Chivo-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:54596
+FileModTime:1410283101
+NameArray:0,Mac,4,Chivo
+NameArray:0,Win,1,Chivo
+%EndFont
+

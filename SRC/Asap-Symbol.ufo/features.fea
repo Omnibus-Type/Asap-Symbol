@@ -1,0 +1,739 @@
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup aaltAccessAllAlternateslookup0 {
+  lookupflag 0;
+    sub \N by \N.ss01 ;
+    sub \Q by \Q.ss01 ;
+    sub \R by \R.ss01 ;
+    sub \S by \S.ss01 ;
+    sub \T by \T.ss01 ;
+    sub \U by \U.ss01 ;
+    sub \X by \X.ss05 ;
+    sub \n by \n.ss01 ;
+    sub \q by \Q.ss01 ;
+    sub \r by \R.ss01 ;
+    sub \s by \S.ss01 ;
+    sub \t by \T.ss01 ;
+    sub \u by \U.ss01 ;
+    sub \x by \X.ss05 ;
+} aaltAccessAllAlternateslookup0;
+
+lookup aaltAccessAllAlternateslookup1 {
+  lookupflag 0;
+    sub \A from [\ordfeminine \A.ss01 \A.ss02 \A.ss03 \A.ss04 \A.ss05 ];
+    sub \B from [\B.ss01 \B.ss02 \B.ss03 \B.ss04 \B.ss05 ];
+    sub \C from [\C.ss01 \C.ss02 \C.ss03 \C.ss04 \C.ss05 ];
+    sub \D from [\D.ss01 \D.ss02 \D.ss03 \D.ss04 \D.ss05 ];
+    sub \E from [\E.ss01 \E.ss02 \E.ss03 \E.ss04 \E.ss05 ];
+    sub \F from [\F.ss01 \F.ss02 \F.ss03 \F.ss04 \F.ss05 ];
+    sub \G from [\G.ss01 \G.ss02 \G.ss03 \G.ss04 \G.ss05 ];
+    sub \H from [\H.ss01 \H.ss02 \H.ss04 \H.ss05 ];
+    sub \I from [\I.ss01 \I.ss02 \I.ss04 \I.ss05 ];
+    sub \J from [\J.ss01 \J.ss02 \J.ss04 \J.ss05 ];
+    sub \K from [\K.ss01 \K.ss02 \K.ss04 ];
+    sub \L from [\L.ss01 \L.ss04 ];
+    sub \M from [\M.ss01 \M.ss04 ];
+    sub \O from [\ordmasculine \O.ss01 \O.ss04 \O.ss05 ];
+    sub \P from [\P.ss01 \P.ss04 ];
+    sub \a from [\ordfeminine \a.ss01 \A.ss02 \a.ss03 \A.ss04 \A.ss05 ];
+    sub \b from [\b.ss01 \B.ss02 \B.ss03 \B.ss04 \B.ss05 ];
+    sub \c from [\c.ss01 \C.ss02 \C.ss03 \C.ss04 \C.ss05 ];
+    sub \d from [\d.ss01 \D.ss02 \D.ss03 \D.ss04 \D.ss05 ];
+    sub \e from [\e.ss01 \E.ss02 \E.ss03 \E.ss04 \E.ss05 ];
+    sub \f from [\f.ss01 \F.ss02 \F.ss03 \F.ss04 \F.ss05 ];
+    sub \g from [\g.ss01 \G.ss02 \G.ss03 \G.ss04 \G.ss05 ];
+    sub \h from [\h.ss01 \H.ss02 \H.ss04 \H.ss05 ];
+    sub \i from [\i.ss01 \I.ss02 \I.ss04 \I.ss05 ];
+    sub \j from [\j.ss01 \J.ss02 \J.ss04 \J.ss05 ];
+    sub \k from [\k.ss01 \K.ss02 \K.ss04 ];
+    sub \l from [\l.ss01 \L.ss04 ];
+    sub \m from [\m.ss01 \M.ss04 ];
+    sub \o from [\ordmasculine \o.ss01 \O.ss04 \O.ss05 ];
+    sub \p from [\p.ss01 \P.ss04 ];
+    sub \one from [\onesuperior \one.ss01 \one.ss02 \one.ss03 ];
+    sub \two from [\twosuperior \two.ss01 \two.ss02 \two.ss03 ];
+    sub \three from [\threesuperior \three.ss01 \three.ss02 \three.ss03 ];
+    sub \four from [\four.ss01 \four.ss02 \four.ss03 ];
+    sub \five from [\five.ss01 \five.ss02 \five.ss03 ];
+    sub \six from [\six.ss01 \six.ss02 \six.ss03 ];
+    sub \seven from [\seven.ss01 \seven.ss02 \seven.ss03 ];
+    sub \eight from [\eight.ss01 \eight.ss02 \eight.ss03 ];
+} aaltAccessAllAlternateslookup1;
+
+lookup supsSuperscriptlookup2 {
+  lookupflag 0;
+    sub \one by \onesuperior ;
+    sub \two by \twosuperior ;
+    sub \three by \threesuperior ;
+} supsSuperscriptlookup2;
+
+lookup fracDiagonalFractionslookup3 {
+  lookupflag 0;
+    sub \one \slash \two  by \onehalf;
+    sub \one \slash \four  by \onequarter;
+    sub \three \slash \four  by \threequarters;
+} fracDiagonalFractionslookup3;
+
+lookup SingleSubstitutionlookup13 {
+  lookupflag 0;
+    sub \A by \ordfeminine ;
+    sub \O by \ordmasculine ;
+    sub \a by \ordfeminine ;
+    sub \o by \ordmasculine ;
+} SingleSubstitutionlookup13;
+
+lookup ordnOrdinalslookup4 {
+  lookupflag 0;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\A \a ]'lookup SingleSubstitutionlookup13  ;
+  subtable;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\O \o ]'lookup SingleSubstitutionlookup13  ;
+} ordnOrdinalslookup4;
+
+lookup ligaStandardLigatureslookup5 {
+  lookupflag 0;
+    sub \f \i  by \fi;
+    sub \f \l  by \fl;
+} ligaStandardLigatureslookup5;
+
+lookup saltStylisticAlternativeslookup {
+  lookupflag 0;
+    sub \A by \A.ss01 ;
+    sub \B by \B.ss01 ;
+    sub \C by \C.ss01 ;
+    sub \D by \D.ss01 ;
+    sub \E by \E.ss01 ;
+    sub \F by \F.ss01 ;
+    sub \G by \G.ss01 ;
+    sub \H by \H.ss01 ;
+    sub \I by \I.ss01 ;
+    sub \J by \J.ss01 ;
+    sub \K by \K.ss01 ;
+    sub \L by \L.ss01 ;
+    sub \M by \M.ss01 ;
+    sub \N by \N.ss01 ;
+    sub \O by \O.ss01 ;
+    sub \P by \P.ss01 ;
+    sub \Q by \Q.ss01 ;
+    sub \R by \R.ss01 ;
+    sub \S by \S.ss01 ;
+    sub \T by \T.ss01 ;
+    sub \U by \U.ss01 ;
+    sub \a by \a.ss01 ;
+    sub \b by \b.ss01 ;
+    sub \c by \c.ss01 ;
+    sub \d by \d.ss01 ;
+    sub \e by \e.ss01 ;
+    sub \f by \f.ss01 ;
+    sub \g by \g.ss01 ;
+    sub \h by \h.ss01 ;
+    sub \i by \i.ss01 ;
+    sub \j by \j.ss01 ;
+    sub \k by \k.ss01 ;
+    sub \l by \l.ss01 ;
+    sub \m by \m.ss01 ;
+    sub \n by \n.ss01 ;
+    sub \o by \o.ss01 ;
+    sub \p by \p.ss01 ;
+    sub \q by \Q.ss01 ;
+    sub \r by \R.ss01 ;
+    sub \s by \S.ss01 ;
+    sub \t by \T.ss01 ;
+    sub \u by \U.ss01 ;
+    sub \one by \one.ss01 ;
+    sub \two by \two.ss01 ;
+    sub \three by \three.ss01 ;
+    sub \four by \four.ss01 ;
+    sub \five by \five.ss01 ;
+    sub \six by \six.ss01 ;
+    sub \seven by \seven.ss01 ;
+    sub \eight by \eight.ss01 ;
+} saltStylisticAlternativeslookup;
+
+lookup ss01StyleSet1lookup7 {
+  lookupflag 0;
+    sub \A by \A.ss01 ;
+    sub \B by \B.ss01 ;
+    sub \C by \C.ss01 ;
+    sub \D by \D.ss01 ;
+    sub \E by \E.ss01 ;
+    sub \F by \F.ss01 ;
+    sub \G by \G.ss01 ;
+    sub \H by \H.ss01 ;
+    sub \I by \I.ss01 ;
+    sub \J by \J.ss01 ;
+    sub \K by \K.ss01 ;
+    sub \L by \L.ss01 ;
+    sub \M by \M.ss01 ;
+    sub \N by \N.ss01 ;
+    sub \O by \O.ss01 ;
+    sub \P by \P.ss01 ;
+    sub \Q by \Q.ss01 ;
+    sub \R by \R.ss01 ;
+    sub \S by \S.ss01 ;
+    sub \T by \T.ss01 ;
+    sub \U by \U.ss01 ;
+    sub \a by \a.ss01 ;
+    sub \b by \b.ss01 ;
+    sub \c by \c.ss01 ;
+    sub \d by \d.ss01 ;
+    sub \e by \e.ss01 ;
+    sub \f by \f.ss01 ;
+    sub \g by \g.ss01 ;
+    sub \h by \h.ss01 ;
+    sub \i by \i.ss01 ;
+    sub \j by \j.ss01 ;
+    sub \k by \k.ss01 ;
+    sub \l by \l.ss01 ;
+    sub \m by \m.ss01 ;
+    sub \n by \n.ss01 ;
+    sub \o by \o.ss01 ;
+    sub \p by \p.ss01 ;
+    sub \q by \Q.ss01 ;
+    sub \r by \R.ss01 ;
+    sub \s by \S.ss01 ;
+    sub \t by \T.ss01 ;
+    sub \u by \U.ss01 ;
+    sub \one by \one.ss01 ;
+    sub \two by \two.ss01 ;
+    sub \three by \three.ss01 ;
+    sub \four by \four.ss01 ;
+    sub \five by \five.ss01 ;
+    sub \six by \six.ss01 ;
+    sub \seven by \seven.ss01 ;
+    sub \eight by \eight.ss01 ;
+} ss01StyleSet1lookup7;
+
+lookup ss02StyleSet2lookup8 {
+  lookupflag 0;
+    sub \A by \A.ss02 ;
+    sub \B by \B.ss02 ;
+    sub \C by \C.ss02 ;
+    sub \D by \D.ss02 ;
+    sub \E by \E.ss02 ;
+    sub \F by \F.ss02 ;
+    sub \G by \G.ss02 ;
+    sub \H by \H.ss02 ;
+    sub \I by \I.ss02 ;
+    sub \J by \J.ss02 ;
+    sub \K by \K.ss02 ;
+    sub \a by \A.ss02 ;
+    sub \b by \B.ss02 ;
+    sub \c by \C.ss02 ;
+    sub \d by \D.ss02 ;
+    sub \e by \E.ss02 ;
+    sub \f by \F.ss02 ;
+    sub \g by \G.ss02 ;
+    sub \h by \H.ss02 ;
+    sub \i by \I.ss02 ;
+    sub \j by \J.ss02 ;
+    sub \k by \K.ss02 ;
+    sub \one by \one.ss02 ;
+    sub \two by \two.ss02 ;
+    sub \three by \three.ss02 ;
+    sub \four by \four.ss02 ;
+    sub \five by \five.ss02 ;
+    sub \six by \six.ss02 ;
+    sub \seven by \seven.ss02 ;
+    sub \eight by \eight.ss02 ;
+} ss02StyleSet2lookup8;
+
+lookup ss03StyleSet3lookup9 {
+  lookupflag 0;
+    sub \A by \A.ss03 ;
+    sub \B by \B.ss03 ;
+    sub \C by \C.ss03 ;
+    sub \D by \D.ss03 ;
+    sub \E by \E.ss03 ;
+    sub \F by \F.ss03 ;
+    sub \G by \G.ss03 ;
+    sub \a by \a.ss03 ;
+    sub \b by \B.ss03 ;
+    sub \c by \C.ss03 ;
+    sub \d by \D.ss03 ;
+    sub \e by \E.ss03 ;
+    sub \f by \F.ss03 ;
+    sub \g by \G.ss03 ;
+    sub \one by \one.ss03 ;
+    sub \two by \two.ss03 ;
+    sub \three by \three.ss03 ;
+    sub \four by \four.ss03 ;
+    sub \five by \five.ss03 ;
+    sub \six by \six.ss03 ;
+    sub \seven by \seven.ss03 ;
+    sub \eight by \eight.ss03 ;
+} ss03StyleSet3lookup9;
+
+lookup ss04StyleSet4lookup10 {
+  lookupflag 0;
+    sub \A by \A.ss04 ;
+    sub \B by \B.ss04 ;
+    sub \C by \C.ss04 ;
+    sub \D by \D.ss04 ;
+    sub \E by \E.ss04 ;
+    sub \F by \F.ss04 ;
+    sub \G by \G.ss04 ;
+    sub \H by \H.ss04 ;
+    sub \I by \I.ss04 ;
+    sub \J by \J.ss04 ;
+    sub \K by \K.ss04 ;
+    sub \L by \L.ss04 ;
+    sub \M by \M.ss04 ;
+    sub \O by \O.ss04 ;
+    sub \P by \P.ss04 ;
+    sub \a by \A.ss04 ;
+    sub \b by \B.ss04 ;
+    sub \c by \C.ss04 ;
+    sub \d by \D.ss04 ;
+    sub \e by \E.ss04 ;
+    sub \f by \F.ss04 ;
+    sub \g by \G.ss04 ;
+    sub \h by \H.ss04 ;
+    sub \i by \I.ss04 ;
+    sub \j by \J.ss04 ;
+    sub \k by \K.ss04 ;
+    sub \l by \L.ss04 ;
+    sub \m by \M.ss04 ;
+    sub \o by \O.ss04 ;
+    sub \p by \P.ss04 ;
+} ss04StyleSet4lookup10;
+
+lookup ss05StyleSet5lookup11 {
+  lookupflag 0;
+    sub \A by \A.ss05 ;
+    sub \B by \B.ss05 ;
+    sub \C by \C.ss05 ;
+    sub \D by \D.ss05 ;
+    sub \E by \E.ss05 ;
+    sub \F by \F.ss05 ;
+    sub \G by \G.ss05 ;
+    sub \H by \H.ss05 ;
+    sub \I by \I.ss05 ;
+    sub \J by \J.ss05 ;
+    sub \O by \O.ss05 ;
+    sub \X by \X.ss05 ;
+    sub \a by \A.ss05 ;
+    sub \b by \B.ss05 ;
+    sub \c by \C.ss05 ;
+    sub \d by \D.ss05 ;
+    sub \e by \E.ss05 ;
+    sub \f by \F.ss05 ;
+    sub \g by \G.ss05 ;
+    sub \h by \H.ss05 ;
+    sub \i by \I.ss05 ;
+    sub \j by \J.ss05 ;
+    sub \o by \O.ss05 ;
+    sub \x by \X.ss05 ;
+} ss05StyleSet5lookup11;
+
+lookup ss06StyleSet6lookup12 {
+  lookupflag 0;
+    sub \A by \one.ss01 ;
+    sub \B by \two.ss01 ;
+    sub \C by \three.ss01 ;
+    sub \D by \four.ss01 ;
+    sub \E by \five.ss01 ;
+    sub \F by \six.ss01 ;
+    sub \G by \seven.ss01 ;
+    sub \H by \eight.ss01 ;
+    sub \I by \one.ss02 ;
+    sub \J by \two.ss02 ;
+    sub \K by \three.ss02 ;
+    sub \L by \four.ss02 ;
+    sub \M by \five.ss02 ;
+    sub \N by \six.ss02 ;
+    sub \O by \seven.ss02 ;
+    sub \P by \eight.ss02 ;
+    sub \Q by \one.ss03 ;
+    sub \R by \two.ss03 ;
+    sub \S by \three.ss03 ;
+    sub \T by \four.ss03 ;
+    sub \U by \five.ss03 ;
+    sub \V by \six.ss03 ;
+    sub \W by \seven.ss03 ;
+    sub \X by \eight.ss03 ;
+    sub \a by \one.ss01 ;
+    sub \b by \two.ss01 ;
+    sub \c by \three.ss01 ;
+    sub \d by \four.ss01 ;
+    sub \e by \five.ss01 ;
+    sub \f by \six.ss01 ;
+    sub \g by \seven.ss01 ;
+    sub \h by \eight.ss01 ;
+    sub \i by \one.ss02 ;
+    sub \j by \two.ss02 ;
+    sub \k by \three.ss02 ;
+    sub \l by \four.ss02 ;
+    sub \m by \five.ss02 ;
+    sub \n by \six.ss02 ;
+    sub \o by \seven.ss02 ;
+    sub \p by \eight.ss02 ;
+    sub \q by \one.ss03 ;
+    sub \r by \two.ss03 ;
+    sub \s by \three.ss03 ;
+    sub \t by \four.ss03 ;
+    sub \u by \five.ss03 ;
+    sub \v by \six.ss03 ;
+    sub \w by \seven.ss03 ;
+    sub \x by \eight.ss03 ;
+} ss06StyleSet6lookup12;
+
+feature aalt {
+
+ script DFLT;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+      lookup aaltAccessAllAlternateslookup1;
+
+ script grek;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+      lookup aaltAccessAllAlternateslookup1;
+
+ script latn;
+     language dflt ;
+      lookup aaltAccessAllAlternateslookup0;
+      lookup aaltAccessAllAlternateslookup1;
+} aalt;
+
+feature sups {
+
+ script DFLT;
+     language dflt ;
+      lookup supsSuperscriptlookup2;
+
+ script grek;
+     language dflt ;
+      lookup supsSuperscriptlookup2;
+
+ script latn;
+     language dflt ;
+      lookup supsSuperscriptlookup2;
+} sups;
+
+feature frac {
+
+ script DFLT;
+     language dflt ;
+      lookup fracDiagonalFractionslookup3;
+
+ script grek;
+     language dflt ;
+      lookup fracDiagonalFractionslookup3;
+
+ script latn;
+     language dflt ;
+      lookup fracDiagonalFractionslookup3;
+} frac;
+
+feature ordn {
+
+ script DFLT;
+     language dflt ;
+      lookup ordnOrdinalslookup4;
+
+ script grek;
+     language dflt ;
+      lookup ordnOrdinalslookup4;
+
+ script latn;
+     language dflt ;
+      lookup ordnOrdinalslookup4;
+} ordn;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup5;
+
+ script grek;
+     language dflt ;
+      lookup ligaStandardLigatureslookup5;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup5;
+} liga;
+
+feature salt {
+
+ script DFLT;
+     language dflt ;
+      lookup saltStylisticAlternativeslookup;
+
+ script grek;
+     language dflt ;
+      lookup saltStylisticAlternativeslookup;
+
+ script latn;
+     language dflt ;
+      lookup saltStylisticAlternativeslookup;
+} salt;
+
+feature ss01 {
+  featureNames {
+    name 3 1 0x409 "People";
+  };
+
+ script DFLT;
+     language dflt ;
+      lookup ss01StyleSet1lookup7;
+
+ script grek;
+     language dflt ;
+      lookup ss01StyleSet1lookup7;
+
+ script latn;
+     language dflt ;
+      lookup ss01StyleSet1lookup7;
+} ss01;
+
+feature ss02 {
+  featureNames {
+    name 3 1 0x409 "Transport";
+  };
+
+ script DFLT;
+     language dflt ;
+      lookup ss02StyleSet2lookup8;
+
+ script grek;
+     language dflt ;
+      lookup ss02StyleSet2lookup8;
+
+ script latn;
+     language dflt ;
+      lookup ss02StyleSet2lookup8;
+} ss02;
+
+feature ss03 {
+  featureNames {
+    name 3 1 0x409 "Elevators";
+  };
+
+ script DFLT;
+     language dflt ;
+      lookup ss03StyleSet3lookup9;
+
+ script grek;
+     language dflt ;
+      lookup ss03StyleSet3lookup9;
+
+ script latn;
+     language dflt ;
+      lookup ss03StyleSet3lookup9;
+} ss03;
+
+feature ss04 {
+  featureNames {
+    name 3 1 0x409 "Objects";
+  };
+
+ script DFLT;
+     language dflt ;
+      lookup ss04StyleSet4lookup10;
+
+ script grek;
+     language dflt ;
+      lookup ss04StyleSet4lookup10;
+
+ script latn;
+     language dflt ;
+      lookup ss04StyleSet4lookup10;
+} ss04;
+
+feature ss05 {
+  featureNames {
+    name 3 1 0x409 "Signal";
+  };
+
+ script DFLT;
+     language dflt ;
+      lookup ss05StyleSet5lookup11;
+
+ script grek;
+     language dflt ;
+      lookup ss05StyleSet5lookup11;
+
+ script latn;
+     language dflt ;
+      lookup ss05StyleSet5lookup11;
+} ss05;
+
+feature ss06 {
+  featureNames {
+    name 3 1 0x409 "Arrows";
+  };
+
+ script DFLT;
+     language dflt ;
+      lookup ss06StyleSet6lookup12;
+
+ script grek;
+     language dflt ;
+      lookup ss06StyleSet6lookup12;
+
+ script latn;
+     language dflt ;
+      lookup ss06StyleSet6lookup12;
+} ss06;
+
+# GPOS 
+
+
+lookup ss05StyleSet5lookup0 {
+  lookupflag 0;
+    pos [\A.ss05 \B.ss05 \C.ss05 \D.ss05 \E.ss05 \F.ss05 \G.ss05 \H.ss05 \I.ss05 \J.ss05 
+	\O.ss05 ]'<0 0 -756 0> [\X.ss05 ] ;
+} ss05StyleSet5lookup0;
+
+lookup cpspCapitalSpacinglookup1 {
+  lookupflag 0;
+    pos \A <5 0 10 0>;
+    pos \Aacute <5 0 10 0>;
+    pos \Acircumflex <5 0 10 0>;
+    pos \Adieresis <5 0 10 0>;
+    pos \Agrave <5 0 10 0>;
+    pos \Aring <5 0 10 0>;
+    pos \Atilde <5 0 10 0>;
+    pos \AE <5 0 10 0>;
+    pos \B <5 0 10 0>;
+    pos \C <5 0 10 0>;
+    pos \Ccedilla <5 0 10 0>;
+    pos \D <5 0 10 0>;
+    pos \Eth <5 0 10 0>;
+    pos \E <5 0 10 0>;
+    pos \Eacute <5 0 10 0>;
+    pos \Ecircumflex <5 0 10 0>;
+    pos \Edieresis <5 0 10 0>;
+    pos \Egrave <5 0 10 0>;
+    pos \F <5 0 10 0>;
+    pos \G <5 0 10 0>;
+    pos \H <5 0 10 0>;
+    pos \I <5 0 10 0>;
+    pos \Iacute <5 0 10 0>;
+    pos \Icircumflex <5 0 10 0>;
+    pos \Idieresis <5 0 10 0>;
+    pos \Igrave <5 0 10 0>;
+    pos \J <5 0 10 0>;
+    pos \K <5 0 10 0>;
+    pos \L <5 0 10 0>;
+    pos \Lslash <5 0 10 0>;
+    pos \M <5 0 10 0>;
+    pos \N <5 0 10 0>;
+    pos \Ntilde <5 0 10 0>;
+    pos \O <5 0 10 0>;
+    pos \Oacute <5 0 10 0>;
+    pos \Ocircumflex <5 0 10 0>;
+    pos \Odieresis <5 0 10 0>;
+    pos \Ograve <5 0 10 0>;
+    pos \Oslash <5 0 10 0>;
+    pos \Otilde <5 0 10 0>;
+    pos \OE <5 0 10 0>;
+    pos \P <5 0 10 0>;
+    pos \Thorn <5 0 10 0>;
+    pos \Q <5 0 10 0>;
+    pos \R <5 0 10 0>;
+    pos \S <5 0 10 0>;
+    pos \Scaron <5 0 10 0>;
+    pos \T <5 0 10 0>;
+    pos \U <5 0 10 0>;
+    pos \Uacute <5 0 10 0>;
+    pos \Ucircumflex <5 0 10 0>;
+    pos \Udieresis <5 0 10 0>;
+    pos \Ugrave <5 0 10 0>;
+    pos \V <5 0 10 0>;
+    pos \W <5 0 10 0>;
+    pos \X <5 0 10 0>;
+    pos \Y <5 0 10 0>;
+    pos \Yacute <5 0 10 0>;
+    pos \Ydieresis <5 0 10 0>;
+    pos \Z <5 0 10 0>;
+    pos \Zcaron <5 0 10 0>;
+} cpspCapitalSpacinglookup1;
+
+feature ss05 {
+  featureNames {
+    name 3 1 0x409 "Signal";
+  };
+
+ script DFLT;
+     language dflt ;
+      lookup ss05StyleSet5lookup0;
+
+ script grek;
+     language dflt ;
+      lookup ss05StyleSet5lookup0;
+
+ script latn;
+     language dflt ;
+      lookup ss05StyleSet5lookup0;
+} ss05;
+
+feature cpsp {
+
+ script DFLT;
+     language dflt ;
+      lookup cpspCapitalSpacinglookup1;
+
+ script grek;
+     language dflt ;
+      lookup cpspCapitalSpacinglookup1;
+
+ script latn;
+     language dflt ;
+      lookup cpspCapitalSpacinglookup1;
+} cpsp;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\space \A \Aacute \Acircumflex \Adieresis \Agrave \Aring \Atilde \AE 
+	\B \C \Ccedilla \D \Eth \E \Eacute \Ecircumflex \Edieresis \Egrave \F \G \H \I \Iacute 
+	\Icircumflex \Idieresis \Igrave \J \K \L \Lslash \M \N \Ntilde \O \Oacute 
+	\Ocircumflex \Odieresis \Ograve \Oslash \Otilde \OE \P \Thorn \Q \R \S \Scaron \T \U 
+	\Uacute \Ucircumflex \Udieresis \Ugrave \V \W \X \Y \Yacute \Ydieresis \Z \Zcaron 
+	\E.ss04.alt \A.ss01 \B.ss01 \C.ss01 \D.ss01 \E.ss01 \F.ss01 \G.ss01 \H.ss01 
+	\I.ss01 \J.ss01 \K.ss01 \L.ss01 \M.ss01 \N.ss01 \O.ss01 \P.ss01 \Q.ss01 \R.ss01 
+	\S.ss01 \T.ss01 \U.ss01 \A.ss02 \B.ss02 \C.ss02 \D.ss02 \E.ss02 \F.ss02 \G.ss02 
+	\H.ss02 \I.ss02 \J.ss02 \K.ss02 \A.ss03 \B.ss03 \C.ss03 \D.ss03 \E.ss03 \F.ss03 
+	\G.ss03 \A.ss04 \B.ss04 \C.ss04 \D.ss04 \E.ss04 \F.ss04 \G.ss04 \H.ss04 \I.ss04 
+	\J.ss04 \K.ss04 \L.ss04 \M.ss04 \O.ss04 \P.ss04 \A.ss05 \B.ss05 \C.ss05 \D.ss05 
+	\E.ss05 \F.ss05 \G.ss05 \H.ss05 \I.ss05 \J.ss05 \O.ss05 \X.ss05 \a \aacute 
+	\acircumflex \adieresis \agrave \aring \atilde \ae \b \c \ccedilla \d \eth \e 
+	\eacute \ecircumflex \edieresis \egrave \f \g \h \i \dotlessi \iacute \icircumflex 
+	\idieresis \igrave \j \k \l \lslash \m \n \ntilde \o \oacute \ocircumflex \odieresis 
+	\ograve \oslash \otilde \oe \p \thorn \q \r \s \scaron \germandbls \t \u \uacute 
+	\ucircumflex \udieresis \ugrave \v \w \x \y \yacute \ydieresis \z \zcaron \a.ss01 
+	\b.ss01 \c.ss01 \d.ss01 \e.ss01 \f.ss01 \g.ss01 \h.ss01 \i.ss01 \j.ss01 \k.ss01 
+	\l.ss01 \m.ss01 \n.ss01 \o.ss01 \p.ss01 \a.ss03 \ordfeminine \ordmasculine 
+	\Delta \Omega \mu \pi \zero \one \two \three \four \five \six \seven \eight \nine 
+	\one.ss01 \two.ss01 \three.ss01 \four.ss01 \five.ss01 \six.ss01 \seven.ss01 
+	\eight.ss01 \one.ss02 \two.ss02 \three.ss02 \four.ss02 \five.ss02 \six.ss02 
+	\seven.ss02 \eight.ss02 \one.ss03 \two.ss03 \three.ss03 \four.ss03 \five.ss03 
+	\six.ss03 \seven.ss03 \eight.ss03 \fraction \onesuperior \twosuperior 
+	\threesuperior \asterisk \backslash \periodcentered \bullet \colon \comma 
+	\ellipsis \exclam \exclamdown \numbersign \period \question \questiondown 
+	\quotedbl \quotesingle \semicolon \slash \underscore \braceleft \braceright 
+	\bracketleft \bracketright \parenleft \parenright \emdash \endash \hyphen 
+	\softhyphen \guillemotleft \guillemotright \guilsinglleft \guilsinglright 
+	\quotedblbase \quotedblleft \quotedblright \quoteleft \quoteright 
+	\quotesinglbase \Euro \cent \currency \dollar \florin \sterling \yen 
+	\approxequal \asciitilde \divide \equal \greater \greaterequal \infinity 
+	\integral \less \lessequal \logicalnot \minus \multiply \notequal \partialdiff 
+	\percent \perthousand \plus \plusminus \product \radical \summation \lozenge 
+	\bar \brokenbar \at \ampersand \paragraph \copyright \registered \section 
+	\trademark \degree \asciicircum \dagger \daggerdbl \acute \breve \caron \cedilla 
+	\circumflex \dieresis \dotaccent \grave \hungarumlaut \macron \ogonek \ring 
+	\tilde ];
+@GDEF_Ligature = [\fi \fl \onehalf \onequarter \threequarters ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+
