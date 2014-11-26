@@ -1,7 +1,3 @@
-Asap Symbol Info
-
-Readme
-
 # Asap Symbol  
 ###(*First Release*)
 
@@ -16,7 +12,18 @@ Previously Asap Typeface was designed to be used simultaneously in print and dig
 Asap is a *contemporary sans-serif family with subtle rounded corners* typeface family from [Omnibus Type](http://omnibus-type.com/). This family, specially developed for screen and desktop use, offers a standarised character width on all styles, which means lines of text remain the same length. This useful feature allows users to change type styles on-the-go without reflowing a text body. .
 
 **Features support**
-- `completar`
+- `sups`
+- `frac`
+- `ordn`
+- `liga`
+- `salt`
+- `ss01` People
+- `ss02` Transport
+- `ss03` Elevators
+- `ss04` Objects
+- `ss05` Signal
+- `ss06` Arrows
+- `cpsp`
 
 
 To contribute to the project contact [Omnibus Type](http://www.omnibus-type.com/).
