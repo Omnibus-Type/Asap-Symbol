@@ -3,54 +3,37 @@
   <advance width="361"/>
   <unicode hex="005C"/>
   <outline>
-    <contour>
-      <point x="49" y="702" type="line" smooth="yes"/>
-      <point x="72" y="702"/>
-      <point x="87" y="695"/>
-      <point x="94" y="676" type="curve" smooth="yes"/>
-      <point x="356" y="12" type="line" smooth="yes"/>
-      <point x="358" y="7"/>
-      <point x="359" y="2"/>
-      <point x="359" y="-3" type="curve" smooth="yes"/>
-      <point x="359" y="-14"/>
-      <point x="348" y="-21"/>
-      <point x="326" y="-21" type="curve" smooth="yes"/>
-      <point x="313" y="-21" type="line" smooth="yes"/>
-      <point x="290" y="-21"/>
-      <point x="276" y="-13"/>
-      <point x="269" y="5" type="curve" smooth="yes"/>
-      <point x="7" y="669" type="line" smooth="yes"/>
-      <point x="5" y="674"/>
-      <point x="4" y="679"/>
-      <point x="4" y="683" type="curve" smooth="yes"/>
-      <point x="4" y="694"/>
-      <point x="14" y="702"/>
-      <point x="36" y="702" type="curve" smooth="yes"/>
-    </contour>
+	<contour>
+	  <point x="36" y="702" type="line" smooth="yes"/>
+	  <point x="14" y="702"/>
+	  <point x="4" y="694"/>
+	  <point x="4" y="683" type="curve" smooth="yes"/>
+	  <point x="4" y="679"/>
+	  <point x="5" y="674"/>
+	  <point x="7" y="669" type="curve" smooth="yes"/>
+	  <point x="269" y="5" type="line" smooth="yes"/>
+	  <point x="276" y="-13"/>
+	  <point x="290" y="-21"/>
+	  <point x="313" y="-21" type="curve" smooth="yes"/>
+	  <point x="326" y="-21" type="line" smooth="yes"/>
+	  <point x="348" y="-21"/>
+	  <point x="359" y="-14"/>
+	  <point x="359" y="-3" type="curve" smooth="yes"/>
+	  <point x="359" y="2"/>
+	  <point x="358" y="7"/>
+	  <point x="356" y="12" type="curve" smooth="yes"/>
+	  <point x="94" y="676" type="line" smooth="yes"/>
+	  <point x="87" y="695"/>
+	  <point x="72" y="702"/>
+	  <point x="49" y="702" type="curve" smooth="yes"/>
+	</contour>
   </outline>
   <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-21</integer>
-            <key>width</key>
-            <integer>723</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>4</integer>
-            <key>width</key>
-            <integer>355</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>11</integer>
+	  <key>public.markColor</key>
+	  <string>0.25,0.25,0.25,1</string>
+	</dict>
   </lib>
 </glyph>

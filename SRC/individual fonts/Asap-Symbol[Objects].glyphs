@@ -16907,15 +16907,22 @@ instances = (
 customParameters = (
 {
 name = panose;
-value = "(\012    2,\012    15,\012    5,\012    4,\012    3,\012    2,\012    2,\012    6,\012    2,\012    3\012)";
+value = (
+    2,
+    15,
+    5,
+    4,
+    3,
+    2,
+    2,
+    6,
+    2,
+    3
+);
 },
 {
-name = Filter;
-value = "LayerGeek;removeOverlap();addExtremePoints();cleanUpPaths();";
-},
-{
-name = Filter;
-value = "GlyphsFilterInsertInflections;";
+name = preferredSubfamilyName;
+value = Objects;
 }
 );
 name = Objects;

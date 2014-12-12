@@ -3,113 +3,15 @@
   <advance width="539"/>
   <unicode hex="00E9"/>
   <outline>
-    <contour>
-      <point x="350" y="733" type="curve" smooth="yes"/>
-      <point x="386" y="733"/>
-      <point x="403.01" y="729.998"/>
-      <point x="403.01" y="718.998" type="curve" smooth="yes"/>
-      <point x="403.01" y="710.238"/>
-      <point x="397.939" y="704.658"/>
-      <point x="350.529" y="652.358" type="curve" smooth="yes"/>
-      <point x="338.359" y="638.929"/>
-      <point x="323.39" y="622.429"/>
-      <point x="305" y="601.999" type="curve" smooth="yes"/>
-      <point x="294" y="589.999"/>
-      <point x="276" y="580.999"/>
-      <point x="243" y="580.999" type="curve" smooth="yes"/>
-      <point x="224" y="580.999"/>
-      <point x="217" y="583.999"/>
-      <point x="217" y="592.999" type="curve" smooth="yes"/>
-      <point x="217" y="600.789"/>
-      <point x="226.12" y="616.489"/>
-      <point x="251.94" y="660.939" type="curve" smooth="yes"/>
-      <point x="259.23" y="673.51"/>
-      <point x="267.86" y="688.37"/>
-      <point x="278" y="706" type="curve" smooth="yes"/>
-      <point x="289" y="726"/>
-      <point x="315" y="733"/>
-    </contour>
-    <contour>
-      <point x="286.01" y="529.998" type="curve" smooth="yes"/>
-      <point x="432.01" y="529.998"/>
-      <point x="497.01" y="426.999"/>
-      <point x="497.01" y="269.999" type="curve" smooth="yes"/>
-      <point x="497.01" y="255.999"/>
-      <point x="468.01" y="220.999"/>
-      <point x="456.01" y="220.999" type="curve" smooth="yes"/>
-      <point x="166.01" y="220.999" type="line"/>
-      <point x="174.01" y="123.999"/>
-      <point x="219.01" y="84.999"/>
-      <point x="303.01" y="84.999" type="curve" smooth="yes"/>
-      <point x="358.22" y="84.999"/>
-      <point x="398" y="104.019"/>
-      <point x="420.52" y="114.778" type="curve" smooth="yes"/>
-      <point x="429.409" y="119.028"/>
-      <point x="435.609" y="121.998"/>
-      <point x="439.01" y="121.998" type="curve" smooth="yes"/>
-      <point x="456.01" y="121.998"/>
-      <point x="481.01" y="75.998"/>
-      <point x="481.01" y="60.998" type="curve" smooth="yes"/>
-      <point x="481.01" y="24.998"/>
-      <point x="382.01" y="-7.00195"/>
-      <point x="301.01" y="-7.00195" type="curve" smooth="yes"/>
-      <point x="128.01" y="-7.00195"/>
-      <point x="49.0098" y="86.998"/>
-      <point x="49.0098" y="257.998" type="curve" smooth="yes"/>
-      <point x="49.0098" y="443.998"/>
-      <point x="138.01" y="529.998"/>
-    </contour>
-    <contour>
-      <point x="285.01" y="437.999" type="curve" smooth="yes"/>
-      <point x="218.01" y="437.999"/>
-      <point x="176.01" y="397.999"/>
-      <point x="167.01" y="304.999" type="curve"/>
-      <point x="384.01" y="304.999" type="line"/>
-      <point x="384.01" y="389.999"/>
-      <point x="352.01" y="437.999"/>
-    </contour>
+	<component base="e"/>
+	<component base="acute" xOffset="152"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-7</integer>
-            <key>width</key>
-            <integer>92</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>221</integer>
-            <key>width</key>
-            <integer>84</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>438</integer>
-            <key>width</key>
-            <integer>92</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>49</integer>
-            <key>width</key>
-            <integer>118</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>384</integer>
-            <key>width</key>
-            <integer>113</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>11</integer>
+	  <key>public.markColor</key>
+	  <string>0.25,0.25,0.25,1</string>
+	</dict>
   </lib>
 </glyph>

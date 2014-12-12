@@ -2955,7 +2955,7 @@ unicode = 017D;
 {
 color = 3;
 glyphname = A.ss03;
-lastChange = "2014-11-22 05:07:13 +0000";
+lastChange = "2014-12-12 17:01:08 +0000";
 layers = (
 {
 background = {
@@ -3373,13 +3373,9 @@ nodes = (
 "581 276 OFFCURVE",
 "574 279 OFFCURVE",
 "562 279 CURVE SMOOTH",
-"558 279 LINE",
-"558 291 OFFCURVE",
-"551 299 OFFCURVE",
-"538 299 CURVE SMOOTH",
-"513 299 LINE",
+"517.978 279 LINE",
 "498 362 LINE SMOOTH",
-"494 380 OFFCURVE",
+"493.741 379.941 OFFCURVE",
 "488.593 387.492 OFFCURVE",
 "481 394 CURVE SMOOTH",
 "474 400 OFFCURVE",
@@ -7782,7 +7778,7 @@ unicode = 017E;
 {
 color = 3;
 glyphname = a.ss03;
-lastChange = "2014-11-22 05:07:13 +0000";
+lastChange = "2014-12-12 17:01:36 +0000";
 layers = (
 {
 background = {
@@ -8140,13 +8136,9 @@ nodes = (
 "581 276 OFFCURVE",
 "574 279 OFFCURVE",
 "562 279 CURVE SMOOTH",
-"558 279 LINE",
-"558 291 OFFCURVE",
-"551 299 OFFCURVE",
-"538 299 CURVE SMOOTH",
-"513 299 LINE",
-"498 362 LINE SMOOTH",
-"494 380 OFFCURVE",
+"517.761 279 LINE",
+"498 362 LINE",
+"493.748 379.942 OFFCURVE",
 "489 388 OFFCURVE",
 "481 394 CURVE SMOOTH",
 "474 401 OFFCURVE",
@@ -15930,7 +15922,22 @@ instances = (
 customParameters = (
 {
 name = panose;
-value = "(\012    2,\012    15,\012    5,\012    4,\012    3,\012    2,\012    2,\012    6,\012    2,\012    3\012)";
+value = (
+    2,
+    15,
+    5,
+    4,
+    3,
+    2,
+    2,
+    6,
+    2,
+    3
+);
+},
+{
+name = preferredSubfamilyName;
+value = Elevators;
 }
 );
 name = Elevators;

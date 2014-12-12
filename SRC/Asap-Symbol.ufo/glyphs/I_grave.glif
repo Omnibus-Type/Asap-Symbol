@@ -3,74 +3,15 @@
   <advance width="282"/>
   <unicode hex="00CC"/>
   <outline>
-    <contour>
-      <point x="69" y="910" type="curve" smooth="yes"/>
-      <point x="105" y="910"/>
-      <point x="130.001" y="902.99"/>
-      <point x="141.001" y="882.99" type="curve" smooth="yes"/>
-      <point x="151.131" y="865.36"/>
-      <point x="159.761" y="850.5"/>
-      <point x="167.061" y="837.94" type="curve" smooth="yes"/>
-      <point x="192.87" y="793.49"/>
-      <point x="201.99" y="777.79"/>
-      <point x="201.99" y="769.99" type="curve" smooth="yes"/>
-      <point x="201.99" y="760.99"/>
-      <point x="194.99" y="757.99"/>
-      <point x="175.99" y="757.99" type="curve" smooth="yes"/>
-      <point x="142.99" y="757.99"/>
-      <point x="124.99" y="766.99"/>
-      <point x="113.99" y="778.99" type="curve" smooth="yes"/>
-      <point x="90.4004" y="805.5"/>
-      <point x="72.4307" y="825.41"/>
-      <point x="58.7607" y="840.55" type="curve" smooth="yes"/>
-      <point x="20.8604" y="882.53"/>
-      <point x="16" y="887.91"/>
-      <point x="16" y="896" type="curve" smooth="yes"/>
-      <point x="16" y="907"/>
-      <point x="34" y="910"/>
-    </contour>
-    <contour>
-      <point x="151.001" y="701.99" type="line" smooth="yes"/>
-      <point x="185.001" y="701.99"/>
-      <point x="199.001" y="692.99"/>
-      <point x="199.001" y="675.99" type="curve" smooth="yes"/>
-      <point x="199.001" y="23.9902" type="line" smooth="yes"/>
-      <point x="199.001" y="6.99023"/>
-      <point x="185.001" y="-2.00977"/>
-      <point x="151.001" y="-2.00977" type="curve" smooth="yes"/>
-      <point x="131.001" y="-2.00977" type="line" smooth="yes"/>
-      <point x="97.001" y="-2.00977"/>
-      <point x="82.001" y="6.99023"/>
-      <point x="82.001" y="23.9902" type="curve" smooth="yes"/>
-      <point x="82.001" y="675.99" type="line" smooth="yes"/>
-      <point x="82.001" y="692.99"/>
-      <point x="97.001" y="701.99"/>
-      <point x="131.001" y="701.99" type="curve" smooth="yes"/>
-    </contour>
+	<component base="I"/>
+	<component base="grave" xOffset="-49" yOffset="177"/>
   </outline>
   <lib>
-    <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-2</integer>
-            <key>width</key>
-            <integer>912</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>82</integer>
-            <key>width</key>
-            <integer>117</integer>
-          </dict>
-        </array>
-      </dict>
-    </dict>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>11</integer>
+	  <key>public.markColor</key>
+	  <string>0.25,0.25,0.25,1</string>
+	</dict>
   </lib>
 </glyph>
