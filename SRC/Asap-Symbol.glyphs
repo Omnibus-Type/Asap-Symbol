@@ -39507,6 +39507,10 @@ value = (
     2,
     3
 );
+},
+{
+name = preferredSubfamilyName;
+value = Symbol;
 }
 );
 name = Symbol;
