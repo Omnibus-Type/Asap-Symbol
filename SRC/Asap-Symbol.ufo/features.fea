@@ -200,8 +200,8 @@ sub [J j] by J.ss04;
 sub [K k] by K.ss04;
 sub [L l] by L.ss04;
 sub [M m] by M.ss04;
+sub [N n] by N.ss04;
 sub [O o] by O.ss04;
-sub [P p] by P.ss04;
 } ss04;
 
 feature ss05 {

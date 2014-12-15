@@ -70,6 +70,17 @@
 		<integer>-220</integer>
 		<integer>-212</integer>
 	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+		<integer>111</integer>
+		<integer>101</integer>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+		<integer>125</integer>
+		<integer>131</integer>
+		<integer>129</integer>
+	</array>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>

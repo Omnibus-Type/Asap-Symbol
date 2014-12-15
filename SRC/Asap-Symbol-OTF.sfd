@@ -15,14 +15,14 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 505 -982332716 12012697]
+XUID: [1021 505 -982332716 9457992]
 FSType: 8
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1418316014
-ModificationTime: 1418416759
-PfmFamily: 33
+CreationTime: 1418646625
+ModificationTime: 1418646625
+PfmFamily: 17
 TTFWeight: 900
 TTFWidth: 5
 LineGap: 0
@@ -74,7 +74,6 @@ Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 s
 Lookup: 264 0 0 "'ss05' Style Set 5 lookup 0" { "'ss05' Style Set 5 lookup 0 subtable"  } ['ss05' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "'cpsp' Capital Spacing lookup 1" { "'cpsp' Capital Spacing lookup 1 subtable"  } ['cpsp' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Positioning lookup 2" { "Single Positioning lookup 2 subtable"  } []
-MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'ss05' Style Set 5 lookup 12 contextual 5" 0 0 0 1
  1 0 1
@@ -140,25 +139,29 @@ ChainPos2: coverage "'ss05' Style Set 5 lookup 0 subtable" 0 0 0 1
   SeqLookup: 0 "Single Positioning lookup 2"
 EndFPST
 LangName: 1033 "" "" "Regular" "1.000;OMNI;Asap-Symbol" "" "Version 1.000;PS 001.000;hotconv 1.0.70;makeotf.lib2.5.58329" "" "" "Omnibus-Type" "Tania Quind+APMA-s, Elena Gonz+AOEA-lez Miranda, Marcela Romero, Pablo Cosgaya" "Asap Symbol is being developed from Asap Typeface" "www.omnibus-type.com" "www.omnibus-type.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1. " "http://scripts.sil.org/OFL" "" "Asap" "Symbol"
-OtfFeatName: 'ss01' 1033 "People"
-OtfFeatName: 'ss02' 1033 "Transport"
-OtfFeatName: 'ss03' 1033 "Elevator"
-OtfFeatName: 'ss04' 1033 "Objects"
-OtfFeatName: 'ss05' 1033 "Signal"
 OtfFeatName: 'ss06' 1033 "Arrows"
+OtfFeatName: 'ss05' 1033 "Signal"
+OtfFeatName: 'ss04' 1033 "Objects"
+OtfFeatName: 'ss03' 1033 "Elevator"
+OtfFeatName: 'ss02' 1033 "Transport"
+OtfFeatName: 'ss01' 1033 "People"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 64 16 8
-BeginPrivate: 5
+WinInfo: 48 16 4
+BeginPrivate: 9
 BlueValues 31 [-15 0 523 531 700 708 745 753]
 OtherBlues 11 [-220 -212]
 FamilyBlues 22 [0 20 523 531 700 708]
 BlueScale 5 0.037
 BlueFuzz 1 0
+StdHW 5 [111]
+StdVW 5 [125]
+StemSnapH 9 [111 101]
+StemSnapV 13 [125 131 129]
 EndPrivate
 BeginChars: 65650 358
 
@@ -1526,9 +1529,10 @@ SplineSet
  590 702 l 2
 EndSplineSet
 Substitution2: "'ss06' Style Set 6 lookup 13 subtable" six.ss02
+Substitution2: "'ss04' Style Set 4 lookup 10 subtable" N.ss04
 Substitution2: "'ss01' Style Set 1 lookup 7 subtable" N.ss01
 Substitution2: "'salt' Stylistic Alternatives lookup 6 subtable" N.ss01
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" N.ss01
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" N.ss01 N.ss04
 Position2: "'cpsp' Capital Spacing lookup 1 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar
 
@@ -1902,10 +1906,9 @@ SplineSet
  428 581 364 600 314 600 c 2
 EndSplineSet
 Substitution2: "'ss06' Style Set 6 lookup 13 subtable" eight.ss02
-Substitution2: "'ss04' Style Set 4 lookup 10 subtable" P.ss04
 Substitution2: "'ss01' Style Set 1 lookup 7 subtable" P.ss01
 Substitution2: "'salt' Stylistic Alternatives lookup 6 subtable" P.ss01
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" P.ss01 P.ss04
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" P.ss01
 Position2: "'cpsp' Capital Spacing lookup 1 subtable" dx=5 dy=0 dh=10 dv=0
 EndChar
 
@@ -3558,7 +3561,7 @@ StartChar: L.ss01
 Encoding: 65549 -1 75
 Width: 530
 Flags: MW
-HStem: 0 21G<424 450.5> 219 140<255 300 300 313 255 332> 508 20G<62 73> 700 29<440.5 488 440.5 496.5> 734 20G<118 142.5> 801 26<460.5 500 478 500 478 500> 900 30<440.5 488>
+HStem: 0 21G<424 450.5> 219 101<113 349> 508 20G<62 73> 700 29<440.5 488 440.5 496.5> 734 20G<118 142.5> 801 26<460.5 500 478 500 478 500> 900 30<440.5 488>
 VStem: 82 99<649 713 639.5 725> 98 62<600 609 609 618 598 618> 350 29<791 838.5 791 847> 451 27<827 866 827 866 858 866 827 869.5> 550 30<791 838.5>
 LayerCount: 2
 Back
@@ -4640,12 +4643,12 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-586 669 m 2x48c0
+586 669 m 2x48e0
  586.830078125 667.919921875 587.090820312 666.23046875 587.090820312 664.830078125 c 0
  587.090820312 663.08984375 586.260742188 661.25 585.000976562 660 c 2
  556.000976562 634 l 2
  554.7109375 632.83984375 553.37109375 632.41015625 552.2109375 632.41015625 c 0
- 550.701171875 632.41015625 549.331054688 633.25 548.000976562 635 c 2x0880
+ 550.701171875 632.41015625 549.331054688 633.25 548.000976562 635 c 2x0820
  532.000976562 656 l 2
  530.701171875 657.709960938 529.541015625 658.459960938 528.44140625 658.459960938 c 0
  527.250976562 658.459960938 526.140625 657.559570312 525.000976562 656 c 2
@@ -4654,7 +4657,7 @@ SplineSet
  504.37109375 631.610351562 503.231445312 632.41015625 502.000976562 634 c 2
  485.000976562 656 l 2
  483.80078125 657.549804688 482.650390625 658.290039062 481.510742188 658.290039062 c 0
- 480.350585938 658.290039062 479.190429688 657.490234375 478 656 c 2x0480
+ 480.350585938 658.290039062 479.190429688 657.490234375 478 656 c 2x0420
  462 636 l 2
  460 633 456 632 453 632 c 2
  355 632 l 1x0840
@@ -4668,7 +4671,7 @@ SplineSet
  339 740 355 722 355 699 c 1
  557 699 l 2
  561 699 565 697 566 695 c 2
- 586 669 l 2x48c0
+ 586 669 l 2x48e0
 226.000976562 639.990234375 m 2x22c0
  226.000976562 690.990234375 l 2
  226.000976562 704.990234375 222.000976562 710.990234375 215.000976562 710.990234375 c 2
@@ -6007,7 +6010,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: O.ss04
+StartChar: N.ss04
 Encoding: 65590 -1 116
 Width: 723
 Flags: MW
@@ -6042,7 +6045,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: P.ss04
+StartChar: O.ss04
 Encoding: 65591 -1 117
 Width: 748
 Flags: MW
@@ -8356,9 +8359,10 @@ SplineSet
  217 498 274 530 333 530 c 0
 EndSplineSet
 Substitution2: "'ss06' Style Set 6 lookup 13 subtable" six.ss02
+Substitution2: "'ss04' Style Set 4 lookup 10 subtable" N.ss04
 Substitution2: "'ss01' Style Set 1 lookup 7 subtable" n.ss01
 Substitution2: "'salt' Stylistic Alternatives lookup 6 subtable" n.ss01
-Substitution2: "'aalt' Access All Alternates lookup 0 subtable" n.ss01
+AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" n.ss01 N.ss04
 EndChar
 
 StartChar: ntilde
@@ -8715,10 +8719,9 @@ SplineSet
  408 372 371 436 303 436 c 0
 EndSplineSet
 Substitution2: "'ss06' Style Set 6 lookup 13 subtable" eight.ss02
-Substitution2: "'ss04' Style Set 4 lookup 10 subtable" P.ss04
 Substitution2: "'ss01' Style Set 1 lookup 7 subtable" p.ss01
 Substitution2: "'salt' Stylistic Alternatives lookup 6 subtable" p.ss01
-AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" p.ss01 P.ss04
+Substitution2: "'aalt' Access All Alternates lookup 0 subtable" p.ss01
 EndChar
 
 StartChar: thorn
@@ -10297,7 +10300,7 @@ StartChar: l.ss01
 Encoding: 65620 -1 209
 Width: 530
 Flags: MW
-HStem: 0 21G<424 450.5> 219 140<255 300 300 313 255 332> 508 20G<62 73> 700 29<440.5 488 440.5 496.5> 734 20G<118 142.5> 801 26<460.5 500 478 500 478 500> 900 30<440.5 488>
+HStem: 0 21G<424 450.5> 219 101<113 349> 508 20G<62 73> 700 29<440.5 488 440.5 496.5> 734 20G<118 142.5> 801 26<460.5 500 478 500 478 500> 900 30<440.5 488>
 VStem: 82 99<649 713 639.5 725> 98 62<600 609 609 618 598 618> 350 29<791 838.5 791 847> 451 27<827 866 827 866 858 866 827 869.5> 550 30<791 838.5>
 LayerCount: 2
 Back
@@ -10577,9 +10580,9 @@ Back
 Fore
 SplineSet
 178.469726562 528.75 m 0
- 201.469726562 543.690429688 233.342773438 564.296875 260.482421875 570.556640625 c 0
- 277.291992188 574.486328125 282.872070312 583.426757812 288.692382812 609.287109375 c 1
- 284.602539062 612.3671875 279.052734375 618.107421875 279.052734375 630.067382812 c 0
+ 201.469726562 543.690429688 233.342773438 564.286132812 260.482421875 570.555664062 c 0
+ 277.291992188 574.475585938 282.872070312 583.416015625 288.692382812 609.276367188 c 1
+ 284.602539062 612.366210938 279.052734375 618.106445312 279.052734375 630.056640625 c 0
  279.052734375 633.20703125 279.442382812 636.787109375 280.33203125 640.8671875 c 2
  293.862304688 702.45703125 l 2
  297.791992188 720.317382812 316.041992188 730.517578125 335.232421875 730.517578125 c 0
@@ -10610,19 +10613,19 @@ SplineSet
  89.740234375 365.33984375 92.6298828125 376.169921875 109.990234375 452 c 0
  115.75 477.919921875 124.299804688 491.969726562 141.479492188 503.759765625 c 0
  155.409179688 513.330078125 167.559570312 521.58984375 178.469726562 528.75 c 0
-217.982421875 392.006835938 m 1
- 233.982421875 473.006835938 l 1
- 171.982421875 443.006835938 l 1
- 157.982421875 382.006835938 l 1
- 176.982421875 388.006835938 196.982421875 392.006835938 217.982421875 392.006835938 c 1
-210.982421875 356.006835938 m 1
- 123.982421875 351.006835938 55.982421875 280.006835938 55.982421875 192.006835938 c 0
- 55.982421875 100.006835938 128.982421875 27.0068359375 220.982421875 27.0068359375 c 0
- 311.982421875 27.0068359375 384.982421875 100.006835938 384.982421875 192.006835938 c 0
- 384.982421875 204.006835938 383.982421875 215.006835938 381.982421875 226.006835938 c 1
- 233.982421875 226.006835938 l 2
- 209.3828125 226.006835938 191.982421875 241.306640625 191.982421875 262.936523438 c 0
- 191.982421875 280.396484375 204.65234375 333.676757812 210.982421875 356.006835938 c 1
+217.982421875 392.005859375 m 1
+ 233.982421875 473.005859375 l 1
+ 171.982421875 443.005859375 l 1
+ 157.982421875 382.005859375 l 1
+ 176.982421875 388.005859375 196.982421875 392.005859375 217.982421875 392.005859375 c 1
+210.982421875 356.005859375 m 1
+ 123.982421875 351.005859375 55.982421875 280.005859375 55.982421875 192.005859375 c 0
+ 55.982421875 100.005859375 128.982421875 27.005859375 220.982421875 27.005859375 c 0
+ 311.982421875 27.005859375 384.982421875 100.005859375 384.982421875 192.005859375 c 0
+ 384.982421875 204.005859375 383.982421875 215.005859375 381.982421875 226.005859375 c 1
+ 233.982421875 226.005859375 l 2
+ 209.3828125 226.005859375 191.982421875 241.305664062 191.982421875 262.935546875 c 0
+ 191.982421875 280.385742188 204.65234375 333.666015625 210.982421875 356.005859375 c 1
 EndSplineSet
 EndChar
 

@@ -190,6 +190,8 @@
 	<string>N_.glif</string>
 	<key>N.ss01</key>
 	<string>N_.ss01.glif</string>
+	<key>N.ss04</key>
+	<string>N_.ss04.glif</string>
 	<key>N.ss05</key>
 	<string>N_.ss05.glif</string>
 	<key>Ntilde</key>
@@ -222,8 +224,6 @@
 	<string>P_.glif</string>
 	<key>P.ss01</key>
 	<string>P_.ss01.glif</string>
-	<key>P.ss04</key>
-	<string>P_.ss04.glif</string>
 	<key>P.ss05</key>
 	<string>P_.ss05.glif</string>
 	<key>Q</key>

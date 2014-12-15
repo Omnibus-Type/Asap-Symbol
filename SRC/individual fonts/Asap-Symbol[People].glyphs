@@ -106,7 +106,16 @@ alignmentZones = (
 ascender = 940;
 capHeight = 700;
 descender = "-212";
+horizontalStems = (
+111,
+101
+);
 id = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
+verticalStems = (
+125,
+131,
+129
+);
 weightValue = 111;
 widthValue = 5;
 xHeight = 523;
@@ -23897,6 +23906,10 @@ value = (
 {
 name = preferredSubfamilyName;
 value = People;
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=72 --default-script=latn --windows-compatibility --composites --symbol --no-info --strong-stem-width=gG";
 }
 );
 name = People;
