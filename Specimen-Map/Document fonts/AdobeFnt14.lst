@@ -6,7 +6,7 @@ Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:\.DS_Store
 FileLength:6148
-FileModTime:1416924054
+FileModTime:1418677597
 %EndFont
 
 %BeginFont
@@ -26,8 +26,8 @@ OutlineFileName:\Asap-Symbol.otf
 DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
-FileLength:74812
-FileModTime:1416620059
+FileLength:65332
+FileModTime:1418650068
 %EndFont
 
 %BeginFont
@@ -48,7 +48,7 @@ DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 FileLength:51128
-FileModTime:1410297485
+FileModTime:1418677174
 %EndFont
 
 %BeginFont
@@ -69,6 +69,6 @@ DataFormat:sfntData
 UsesStandardEncoding:yes
 isCFF:yes
 FileLength:54596
-FileModTime:1410297501
+FileModTime:1418677174
 %EndFont
 

@@ -2,4 +2,17 @@
 <glyph name="space" format="1">
   <advance width="240"/>
   <unicode hex="0020"/>
+<<<<<<< HEAD
+=======
+  <outline>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>11</integer>
+	  <key>public.markColor</key>
+	  <string>0.25,0.25,0.25,1</string>
+	</dict>
+  </lib>
+>>>>>>> FETCH_HEAD
 </glyph>

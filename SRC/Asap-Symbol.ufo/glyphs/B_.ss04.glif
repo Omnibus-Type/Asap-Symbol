@@ -2,6 +2,7 @@
 <glyph name="B.ss04" format="1">
   <advance width="797"/>
   <outline>
+<<<<<<< HEAD
     <contour>
       <point x="50" y="507" type="line" smooth="yes"/>
       <point x="50" y="518"/>
@@ -80,5 +81,56 @@
         </array>
       </dict>
     </dict>
+=======
+	<contour>
+	  <point x="124" y="67" type="line"/>
+	  <point x="124" y="386" type="line"/>
+	  <point x="137" y="374" type="line"/>
+	  <point x="353" y="211" type="line" smooth="yes"/>
+	  <point x="368.453" y="200.3"/>
+	  <point x="377.41" y="197"/>
+	  <point x="391" y="197" type="curve" smooth="yes"/>
+	  <point x="407" y="197" type="line" smooth="yes"/>
+	  <point x="422.54" y="197"/>
+	  <point x="431.733" y="200.3"/>
+	  <point x="446" y="211" type="curve" smooth="yes"/>
+	  <point x="660" y="374" type="line"/>
+	  <point x="673" y="386" type="line"/>
+	  <point x="673" y="67" type="line"/>
+	</contour>
+	<contour>
+	  <point x="636" y="447" type="line"/>
+	  <point x="398" y="261" type="line"/>
+	  <point x="161" y="447" type="line"/>
+	  <point x="147" y="453" type="line"/>
+	  <point x="650" y="453" type="line"/>
+	</contour>
+	<contour>
+	  <point x="50" y="16" type="line" smooth="yes"/>
+	  <point x="50" y="5"/>
+	  <point x="57" y="0"/>
+	  <point x="80" y="0" type="curve" smooth="yes"/>
+	  <point x="717" y="0" type="line" smooth="yes"/>
+	  <point x="740" y="0"/>
+	  <point x="747" y="5"/>
+	  <point x="747" y="16" type="curve" smooth="yes"/>
+	  <point x="747" y="507" type="line" smooth="yes"/>
+	  <point x="747" y="518"/>
+	  <point x="740" y="523"/>
+	  <point x="717" y="523" type="curve" smooth="yes"/>
+	  <point x="80" y="523" type="line" smooth="yes"/>
+	  <point x="57" y="523"/>
+	  <point x="50" y="518"/>
+	  <point x="50" y="507" type="curve" smooth="yes"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>4</integer>
+	  <key>public.markColor</key>
+	  <string>0.67,0.95,0.38,1</string>
+	</dict>
+>>>>>>> FETCH_HEAD
   </lib>
 </glyph>

@@ -1,7 +1,13 @@
+<<<<<<< HEAD
+=======
+# Prefix: Languagesystems
+# automatic
+>>>>>>> FETCH_HEAD
 languagesystem DFLT dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
 
+<<<<<<< HEAD
 
 # GSUB 
 
@@ -736,4 +742,266 @@ table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
 
 } GDEF;
+=======
+# Prefix: morx
+# automatic
+
+
+@Uppercase = [ A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L Lslash M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S Scaron T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Ydieresis Z Zcaron ];
+
+feature aalt {
+# automatic
+feature sups;
+feature frac;
+feature ordn;
+feature salt;
+feature ss01;
+feature ss02;
+feature ss03;
+feature ss04;
+feature ss05;
+} aalt;
+
+feature sups {
+# automatic
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+} sups;
+
+feature frac {
+# automatic
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+} frac;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+} ordn;
+
+feature liga {
+# automatic
+sub f i by fi;
+sub f l by fl;
+} liga;
+
+feature salt {
+sub A by A.ss01;
+sub B by B.ss01;
+sub C by C.ss01;
+sub D by D.ss01;
+sub E by E.ss01;
+sub F by F.ss01;
+sub G by G.ss01;
+sub H by H.ss01;
+sub I by I.ss01;
+sub J by J.ss01;
+sub K by K.ss01;
+sub L by L.ss01;
+sub M by M.ss01;
+sub N by N.ss01;
+sub O by O.ss01;
+sub P by P.ss01;
+sub [Q q] by Q.ss01;
+sub [R r] by R.ss01;
+sub [S s] by S.ss01;
+sub [T t] by T.ss01;
+sub [U u] by U.ss01;
+sub a by a.ss01;
+sub b by b.ss01;
+sub c by c.ss01;
+sub d by d.ss01;
+sub e by e.ss01;
+sub f by f.ss01;
+sub g by g.ss01;
+sub h by h.ss01;
+sub i by i.ss01;
+sub j by j.ss01;
+sub k by k.ss01;
+sub l by l.ss01;
+sub m by m.ss01;
+sub n by n.ss01;
+sub o by o.ss01;
+sub p by p.ss01;
+sub one by one.ss01;
+sub two by two.ss01;
+sub three by three.ss01;
+sub four by four.ss01;
+sub five by five.ss01;
+sub six by six.ss01;
+sub seven by seven.ss01;
+sub eight by eight.ss01;
+} salt;
+
+feature ss01 {
+sub A by A.ss01;
+sub B by B.ss01;
+sub C by C.ss01;
+sub D by D.ss01;
+sub E by E.ss01;
+sub F by F.ss01;
+sub G by G.ss01;
+sub H by H.ss01;
+sub I by I.ss01;
+sub J by J.ss01;
+sub K by K.ss01;
+sub L by L.ss01;
+sub M by M.ss01;
+sub N by N.ss01;
+sub O by O.ss01;
+sub P by P.ss01;
+sub [Q q] by Q.ss01;
+sub [R r] by R.ss01;
+sub [S s] by S.ss01;
+sub [T t] by T.ss01;
+sub [U u] by U.ss01;
+sub a by a.ss01;
+sub b by b.ss01;
+sub c by c.ss01;
+sub d by d.ss01;
+sub e by e.ss01;
+sub f by f.ss01;
+sub g by g.ss01;
+sub h by h.ss01;
+sub i by i.ss01;
+sub j by j.ss01;
+sub k by k.ss01;
+sub l by l.ss01;
+sub m by m.ss01;
+sub n by n.ss01;
+sub o by o.ss01;
+sub p by p.ss01;
+sub one by one.ss01;
+sub two by two.ss01;
+sub three by three.ss01;
+sub four by four.ss01;
+sub five by five.ss01;
+sub six by six.ss01;
+sub seven by seven.ss01;
+sub eight by eight.ss01;
+} ss01;
+
+feature ss02 {
+sub [A a] by A.ss02;
+sub [B b] by B.ss02;
+sub [C c] by C.ss02;
+sub [D d] by D.ss02;
+sub [E e] by E.ss02;
+sub [F f] by F.ss02;
+sub [G g] by G.ss02;
+sub [H h] by H.ss02;
+sub [I i] by I.ss02;
+sub [J j] by J.ss02;
+sub [K k] by K.ss02;
+sub one by one.ss02;
+sub two by two.ss02;
+sub three by three.ss02;
+sub four by four.ss02;
+sub five by five.ss02;
+sub six by six.ss02;
+sub seven by seven.ss02;
+sub eight by eight.ss02;
+} ss02;
+
+feature ss03 {
+sub A by A.ss03;
+sub [B b] by B.ss03;
+sub [C c] by C.ss03;
+sub [D d] by D.ss03;
+sub [E e] by E.ss03;
+sub [F f] by F.ss03;
+sub [G g] by G.ss03;
+sub a by a.ss03;
+sub one by one.ss03;
+sub two by two.ss03;
+sub three by three.ss03;
+sub four by four.ss03;
+sub five by five.ss03;
+sub six by six.ss03;
+sub seven by seven.ss03;
+sub eight by eight.ss03;
+} ss03;
+
+feature ss04 {
+sub [A a] by A.ss04;
+sub [B b] by B.ss04;
+sub [C c] by C.ss04;
+sub [D d] by D.ss04;
+sub [E e] by E.ss04;
+sub [F f] by F.ss04;
+sub [G g] by G.ss04;
+sub [H h] by H.ss04;
+sub [I i] by I.ss04;
+sub [J j] by J.ss04;
+sub [K k] by K.ss04;
+sub [L l] by L.ss04;
+sub [M m] by M.ss04;
+sub [N n] by N.ss04;
+sub [O o] by O.ss04;
+} ss04;
+
+feature ss05 {
+lookup signal {
+	sub [A a] by A.ss05;
+	sub [B b] by B.ss05;
+	sub [C c] by C.ss05;
+	sub [D d] by D.ss05;
+	sub [E e] by E.ss05;
+	sub [F f] by F.ss05;
+	sub [G g] by G.ss05;
+	sub [H h] by H.ss05;
+	sub [I i] by I.ss05;
+	sub [J j] by J.ss05;
+	sub [X x] by X.ss05;
+} signal;
+
+lookup banned1 {
+	sub E.ss05' X.ss05 by K.ss05;
+	sub F.ss05' X.ss05 by L.ss05;
+	sub G.ss05' X.ss05 by M.ss05;
+	sub H.ss05' X.ss05 by N.ss05;
+	sub I.ss05' X.ss05 by O.ss05;
+	sub J.ss05' X.ss05 by P.ss05;
+} banned1;
+
+lookup banned2 {
+	pos [K.ss05 L.ss05 M.ss05 N.ss05 O.ss05 P.ss05]' -756 X.ss05;
+} banned2;
+} ss05;
+
+feature ss06 {
+sub [A a] by one.ss01;
+sub [B b] by two.ss01;
+sub [C c] by three.ss01;
+sub [D d] by four.ss01;
+sub [E e] by five.ss01;
+sub [F f] by six.ss01;
+sub [G g] by seven.ss01;
+sub [H h] by eight.ss01;
+sub [I i] by one.ss02;
+sub [J j] by two.ss02;
+sub [K k] by three.ss02;
+sub [L l] by four.ss02;
+sub [M m] by five.ss02;
+sub [N n] by six.ss02;
+sub [O o] by seven.ss02;
+sub [P p] by eight.ss02;
+sub [Q q] by one.ss03;
+sub [R r] by two.ss03;
+sub [S s] by three.ss03;
+sub [T t] by four.ss03;
+sub [U u] by five.ss03;
+sub [V v] by six.ss03;
+sub [W w] by seven.ss03;
+sub [X x] by eight.ss03;
+} ss06;
+
+feature cpsp {
+# automatic
+pos @Uppercase <5 0 10 0>;
+} cpsp;
+>>>>>>> FETCH_HEAD
 

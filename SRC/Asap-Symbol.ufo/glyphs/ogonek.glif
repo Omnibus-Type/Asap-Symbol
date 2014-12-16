@@ -3,6 +3,7 @@
   <advance width="320"/>
   <unicode hex="02DB"/>
   <outline>
+<<<<<<< HEAD
     <contour>
       <point x="113" y="14" type="curve" smooth="yes"/>
       <point x="127" y="14"/>
@@ -60,5 +61,44 @@
         </array>
       </dict>
     </dict>
+=======
+	<contour>
+	  <point x="61" y="14"/>
+	  <point x="54" y="-55"/>
+	  <point x="54" y="-81" type="curve" smooth="yes"/>
+	  <point x="54" y="-110"/>
+	  <point x="65" y="-183"/>
+	  <point x="172" y="-183" type="curve" smooth="yes"/>
+	  <point x="217" y="-183"/>
+	  <point x="254" y="-174"/>
+	  <point x="254" y="-130" type="curve" smooth="yes"/>
+	  <point x="254" y="-112"/>
+	  <point x="247" y="-104"/>
+	  <point x="234" y="-104" type="curve" smooth="yes"/>
+	  <point x="217" y="-104"/>
+	  <point x="202" y="-113"/>
+	  <point x="183" y="-113" type="curve" smooth="yes"/>
+	  <point x="160" y="-113"/>
+	  <point x="121" y="-110"/>
+	  <point x="121" y="-62" type="curve" smooth="yes"/>
+	  <point x="121" y="-36"/>
+	  <point x="133" y="-17"/>
+	  <point x="133" y="-3" type="curve" smooth="yes"/>
+	  <point x="133" y="8"/>
+	  <point x="127" y="14"/>
+	  <point x="113" y="14" type="curve" smooth="yes"/>
+	</contour>
+	<contour>
+	  <point x="133" y="0" type="move" name="_ogonek"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>11</integer>
+	  <key>public.markColor</key>
+	  <string>0.25,0.25,0.25,1</string>
+	</dict>
+>>>>>>> FETCH_HEAD
   </lib>
 </glyph>

@@ -3,6 +3,7 @@
   <advance width="546"/>
   <unicode hex="00C9"/>
   <outline>
+<<<<<<< HEAD
     <contour>
       <point x="376" y="910" type="curve" smooth="yes"/>
       <point x="412" y="910"/>
@@ -104,5 +105,17 @@
         </array>
       </dict>
     </dict>
+=======
+	<component base="E"/>
+	<component base="acute" xOffset="178" yOffset="177"/>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>11</integer>
+	  <key>public.markColor</key>
+	  <string>0.25,0.25,0.25,1</string>
+	</dict>
+>>>>>>> FETCH_HEAD
   </lib>
 </glyph>

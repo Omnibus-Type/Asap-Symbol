@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<<<<<<< HEAD
   <dict>
     <key>familyName</key>
     <string>Asap Symbol</string>
@@ -144,4 +145,101 @@
     <key>postscriptBlueScale</key>
     <real>0.037</real>
   </dict>
+=======
+<dict>
+	<key>Make morx table</key>
+	<true/>
+	<key>ascender</key>
+	<integer>940</integer>
+	<key>capHeight</key>
+	<integer>700</integer>
+	<key>copyright</key>
+	<string>Copyright (c) 2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name 'Asap'</string>
+	<key>descender</key>
+	<integer>-212</integer>
+	<key>description</key>
+	<string>Asap Symbol is being developed from Asap Typeface</string>
+	<key>familyName</key>
+	<string>Asap</string>
+	<key>fsType</key>
+	<array>
+		<integer>3</integer>
+	</array>
+	<key>license</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. </string>
+	<key>licenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
+	<key>openTypeHeadCreated</key>
+	<string>2014/11/18 20:36:41</string>
+	<key>openTypeNameDesigner</key>
+	<string>Tania Quindós, Elena González Miranda, Marcela Romero, Pablo Cosgaya</string>
+	<key>openTypeNameDesignerURL</key>
+	<string>www.omnibus-type.com</string>
+	<key>openTypeNameManufacturer</key>
+	<string>Omnibus-Type</string>
+	<key>openTypeNameManufacturerURL</key>
+	<string>www.omnibus-type.com</string>
+	<key>openTypeNamePreferredFamilyName</key>
+	<string>Asap</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Symbol</string>
+	<key>openTypeOS2WeightClass</key>
+	<integer>900</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<integer>-15</integer>
+		<integer>0</integer>
+		<integer>523</integer>
+		<integer>531</integer>
+		<integer>700</integer>
+		<integer>708</integer>
+		<integer>745</integer>
+		<integer>753</integer>
+	</array>
+	<key>postscriptFamilyBlues</key>
+	<array>
+		<integer>0</integer>
+		<integer>20</integer>
+		<integer>523</integer>
+		<integer>531</integer>
+		<integer>700</integer>
+		<integer>708</integer>
+	</array>
+	<key>postscriptFamilyOtherBlues</key>
+	<array>
+	</array>
+	<key>postscriptOtherBlues</key>
+	<array>
+		<integer>-220</integer>
+		<integer>-212</integer>
+	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+		<integer>111</integer>
+		<integer>101</integer>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+		<integer>125</integer>
+		<integer>131</integer>
+		<integer>129</integer>
+	</array>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>unitsPerEm</key>
+	<integer>1000</integer>
+	<key>vendorID</key>
+	<string>OMNI</string>
+	<key>versionMajor</key>
+	<integer>1</integer>
+	<key>versionMinor</key>
+	<integer>0</integer>
+	<key>xHeight</key>
+	<integer>523</integer>
+</dict>
+>>>>>>> FETCH_HEAD
 </plist>

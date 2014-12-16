@@ -3,6 +3,7 @@
   <advance width="300"/>
   <unicode hex="203A"/>
   <outline>
+<<<<<<< HEAD
     <contour>
       <point x="93" y="461" type="curve" smooth="yes"/>
       <point x="102" y="461"/>
@@ -58,5 +59,45 @@
         </array>
       </dict>
     </dict>
+=======
+	<contour>
+	  <point x="78" y="461"/>
+	  <point x="48" y="441"/>
+	  <point x="48" y="421" type="curve" smooth="yes"/>
+	  <point x="48" y="415"/>
+	  <point x="51" y="408"/>
+	  <point x="56" y="400" type="curve" smooth="yes"/>
+	  <point x="167" y="258" type="line"/>
+	  <point x="56" y="115" type="line" smooth="yes"/>
+	  <point x="51" y="108"/>
+	  <point x="48" y="101"/>
+	  <point x="48" y="94" type="curve" smooth="yes"/>
+	  <point x="48" y="79"/>
+	  <point x="75" y="54"/>
+	  <point x="93" y="54" type="curve" smooth="yes"/>
+	  <point x="102" y="54"/>
+	  <point x="110" y="59"/>
+	  <point x="118" y="68" type="curve" smooth="yes"/>
+	  <point x="246" y="223" type="line" smooth="yes"/>
+	  <point x="257" y="235"/>
+	  <point x="261" y="245"/>
+	  <point x="261" y="258" type="curve" smooth="yes"/>
+	  <point x="261" y="271"/>
+	  <point x="257" y="281"/>
+	  <point x="246" y="293" type="curve" smooth="yes"/>
+	  <point x="118" y="448" type="line" smooth="yes"/>
+	  <point x="110" y="457"/>
+	  <point x="102" y="461"/>
+	  <point x="93" y="461" type="curve" smooth="yes"/>
+	</contour>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>11</integer>
+	  <key>public.markColor</key>
+	  <string>0.25,0.25,0.25,1</string>
+	</dict>
+>>>>>>> FETCH_HEAD
   </lib>
 </glyph>

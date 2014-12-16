@@ -2,6 +2,7 @@
 <glyph name="E.ss05" format="1">
   <advance width="756"/>
   <outline>
+<<<<<<< HEAD
     <contour>
       <point x="378" y="708" type="curve" smooth="yes"/>
       <point x="575" y="708"/>
@@ -129,5 +130,44 @@
         </array>
       </dict>
     </dict>
+=======
+	<contour>
+	  <point x="180" y="708"/>
+	  <point x="20" y="548"/>
+	  <point x="20" y="350" type="curve" smooth="yes"/>
+	  <point x="20" y="152"/>
+	  <point x="180" y="-8"/>
+	  <point x="378" y="-8" type="curve" smooth="yes"/>
+	  <point x="575" y="-8"/>
+	  <point x="736" y="152"/>
+	  <point x="736" y="350" type="curve" smooth="yes"/>
+	  <point x="736" y="548"/>
+	  <point x="575" y="708"/>
+	  <point x="378" y="708" type="curve" smooth="yes"/>
+	</contour>
+	<contour>
+	  <point x="532" y="630"/>
+	  <point x="658" y="504"/>
+	  <point x="658" y="350" type="curve" smooth="yes"/>
+	  <point x="658" y="196"/>
+	  <point x="532" y="70"/>
+	  <point x="378" y="70" type="curve" smooth="yes"/>
+	  <point x="224" y="70"/>
+	  <point x="98" y="196"/>
+	  <point x="98" y="350" type="curve" smooth="yes"/>
+	  <point x="98" y="504"/>
+	  <point x="224" y="630"/>
+	  <point x="378" y="630" type="curve" smooth="yes"/>
+	</contour>
+	<component base="K.ss05"/>
+  </outline>
+  <lib>
+	<dict>
+	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+	  <integer>6</integer>
+	  <key>public.markColor</key>
+	  <string>0,0.67,0.91,1</string>
+	</dict>
+>>>>>>> FETCH_HEAD
   </lib>
 </glyph>

@@ -85,7 +85,11 @@ code = "sub f i by fi;\012sub f l by fl;\012";
 name = liga;
 },
 {
+<<<<<<< HEAD
 code = "sub [A a] by A.ss04;\012sub [B b] by B.ss04;\012sub [C c] by C.ss04;\012sub [D d] by D.ss04;\012sub [E e] by E.ss04;\012sub [F f] by F.ss04;\012sub [G g] by G.ss04;\012sub [H h] by H.ss04;\012sub [I i] by I.ss04;\012sub [J j] by J.ss04;\012sub [K k] by K.ss04;\012sub [L l] by L.ss04;\012sub [M m] by M.ss04;\012sub [O o] by O.ss04;\012sub [P p] by P.ss04;";
+=======
+code = "sub [A a] by A.ss04;\012sub [B b] by B.ss04;\012sub [C c] by C.ss04;\012sub [D d] by D.ss04;\012sub [E e] by E.ss04;\012sub [F f] by F.ss04;\012sub [G g] by G.ss04;\012sub [H h] by H.ss04;\012sub [I i] by I.ss04;\012sub [J j] by J.ss04;\012sub [K k] by K.ss04;\012sub [L l] by L.ss04;\012sub [M m] by M.ss04;\012sub [N n] by N.ss04;\012sub [O o] by O.ss04;";
+>>>>>>> FETCH_HEAD
 name = salt;
 },
 {
@@ -106,7 +110,20 @@ alignmentZones = (
 ascender = 940;
 capHeight = 700;
 descender = "-212";
+<<<<<<< HEAD
 id = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
+=======
+horizontalStems = (
+111,
+101
+);
+id = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
+verticalStems = (
+125,
+131,
+129
+);
+>>>>>>> FETCH_HEAD
 weightValue = 111;
 widthValue = 5;
 xHeight = 523;
@@ -5705,8 +5722,13 @@ width = 720;
 },
 {
 color = 4;
+<<<<<<< HEAD
 glyphname = O.ss04;
 lastChange = "2014-11-22 05:13:33 +0000";
+=======
+glyphname = N.ss04;
+lastChange = "2014-12-15 21:11:27 +0000";
+>>>>>>> FETCH_HEAD
 layers = (
 {
 background = {
@@ -5840,8 +5862,13 @@ width = 723;
 },
 {
 color = 4;
+<<<<<<< HEAD
 glyphname = P.ss04;
 lastChange = "2014-11-22 05:13:33 +0000";
+=======
+glyphname = O.ss04;
+lastChange = "2014-12-15 21:11:30 +0000";
+>>>>>>> FETCH_HEAD
 layers = (
 {
 background = {
@@ -16907,6 +16934,7 @@ instances = (
 customParameters = (
 {
 name = panose;
+<<<<<<< HEAD
 value = "(\012    2,\012    15,\012    5,\012    4,\012    3,\012    2,\012    2,\012    6,\012    2,\012    3\012)";
 },
 {
@@ -16916,6 +16944,28 @@ value = "LayerGeek;removeOverlap();addExtremePoints();cleanUpPaths();";
 {
 name = Filter;
 value = "GlyphsFilterInsertInflections;";
+=======
+value = (
+    2,
+    15,
+    5,
+    4,
+    3,
+    2,
+    2,
+    6,
+    2,
+    3
+);
+},
+{
+name = preferredSubfamilyName;
+value = Objects;
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-max=72 --default-script=latn --windows-compatibility --composites --symbol --no-info --strong-stem-width=gG";
+>>>>>>> FETCH_HEAD
 }
 );
 name = Objects;
