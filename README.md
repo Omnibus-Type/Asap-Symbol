@@ -43,7 +43,7 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact [Omnibus Type](http://www.omnibus-type.com/).*
 
-**12 Dec 2014 (Omnibus-Type) Asap Symbol v.1.O**
+**12 Dec 2014 (Omnibus-Type) Asap Symbol v.1.0*
 - Released verion
 
 ### Acknowledgements
