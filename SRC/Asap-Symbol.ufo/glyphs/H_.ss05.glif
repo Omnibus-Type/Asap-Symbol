@@ -2,161 +2,42 @@
 <glyph name="H.ss05" format="1">
   <advance width="756"/>
   <outline>
-<<<<<<< HEAD
     <contour>
-      <point x="378" y="708" type="curve" smooth="yes"/>
-      <point x="575" y="708"/>
-      <point x="736" y="548"/>
-      <point x="736" y="350" type="curve" smooth="yes"/>
-      <point x="736" y="152"/>
-      <point x="575" y="-8"/>
-      <point x="378" y="-8" type="curve" smooth="yes"/>
-      <point x="180" y="-8"/>
-      <point x="20" y="152"/>
-      <point x="20" y="350" type="curve" smooth="yes"/>
-      <point x="20" y="548"/>
       <point x="180" y="708"/>
+      <point x="20" y="548"/>
+      <point x="20" y="350" type="curve" smooth="yes"/>
+      <point x="20" y="152"/>
+      <point x="180" y="-8"/>
+      <point x="378" y="-8" type="curve" smooth="yes"/>
+      <point x="575" y="-8"/>
+      <point x="736" y="152"/>
+      <point x="736" y="350" type="curve" smooth="yes"/>
+      <point x="736" y="548"/>
+      <point x="575" y="708"/>
+      <point x="378" y="708" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="378" y="630" type="curve" smooth="yes"/>
-      <point x="224" y="630"/>
-      <point x="98" y="504"/>
-      <point x="98" y="350" type="curve" smooth="yes"/>
-      <point x="98" y="196"/>
-      <point x="224" y="70"/>
-      <point x="378" y="70" type="curve" smooth="yes"/>
-      <point x="532" y="70"/>
-      <point x="658" y="196"/>
-      <point x="658" y="350" type="curve" smooth="yes"/>
-      <point x="658" y="504"/>
       <point x="532" y="630"/>
+      <point x="658" y="504"/>
+      <point x="658" y="350" type="curve" smooth="yes"/>
+      <point x="658" y="196"/>
+      <point x="532" y="70"/>
+      <point x="378" y="70" type="curve" smooth="yes"/>
+      <point x="224" y="70"/>
+      <point x="98" y="196"/>
+      <point x="98" y="350" type="curve" smooth="yes"/>
+      <point x="98" y="504"/>
+      <point x="224" y="630"/>
+      <point x="378" y="630" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="517" y="405" type="line"/>
-      <point x="558.999" y="405" type="line" smooth="yes"/>
-      <point x="571.999" y="405"/>
-      <point x="580.269" y="410.34"/>
-      <point x="584.999" y="421" type="curve" smooth="yes"/>
-      <point x="588.999" y="430"/>
-      <point x="590.999" y="437"/>
-      <point x="590.999" y="442" type="curve" smooth="yes"/>
-      <point x="590.999" y="447.29"/>
-      <point x="588.289" y="450.82"/>
-      <point x="580.999" y="455" type="curve" smooth="yes"/>
-      <point x="519.999" y="490" type="line"/>
-      <point x="519.999" y="519" type="line" smooth="yes"/>
-      <point x="519.999" y="521"/>
-      <point x="517.999" y="523"/>
-      <point x="514.999" y="523" type="curve" smooth="yes"/>
-      <point x="512.999" y="523"/>
-      <point x="510.759" y="522.21"/>
-      <point x="508.999" y="520" type="curve" smooth="yes"/>
-      <point x="419.999" y="408" type="line"/>
-      <point x="203.999" y="430" type="line"/>
-      <point x="203.999" y="415"/>
-      <point x="216.999" y="395"/>
-      <point x="231.999" y="389" type="curve"/>
-      <point x="230.559" y="366.09"/>
-      <point x="228.629" y="336.399"/>
-      <point x="226.699" y="306.72" type="curve" smooth="yes"/>
-      <point x="222.85" y="247.45"/>
-      <point x="219" y="188.2"/>
-      <point x="219" y="183" type="curve" smooth="yes"/>
-      <point x="219" y="173"/>
-      <point x="227" y="169"/>
-      <point x="243" y="169" type="curve" smooth="yes"/>
-      <point x="259" y="169"/>
-      <point x="269.4" y="173.09"/>
-      <point x="271" y="183" type="curve" smooth="yes"/>
-      <point x="291" y="307" type="line"/>
-      <point x="324" y="293"/>
-      <point x="359" y="287"/>
-      <point x="386" y="287" type="curve" smooth="yes"/>
-      <point x="436" y="287" type="line"/>
-      <point x="445" y="183" type="line" smooth="yes"/>
-      <point x="445.95" y="171.96"/>
-      <point x="459" y="169"/>
-      <point x="474" y="169" type="curve" smooth="yes"/>
-      <point x="491" y="169"/>
-      <point x="501" y="173"/>
-      <point x="501" y="183" type="curve" smooth="yes"/>
-      <point x="501" y="355" type="line"/>
-    </contour>
+    <component base="N.ss05"/>
   </outline>
   <lib>
     <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-8</integer>
-            <key>width</key>
-            <integer>78</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>630</integer>
-            <key>width</key>
-            <integer>78</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>20</integer>
-            <key>width</key>
-            <integer>78</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>658</integer>
-            <key>width</key>
-            <integer>78</integer>
-          </dict>
-        </array>
-      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>6</integer>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
-=======
-	<contour>
-	  <point x="180" y="708"/>
-	  <point x="20" y="548"/>
-	  <point x="20" y="350" type="curve" smooth="yes"/>
-	  <point x="20" y="152"/>
-	  <point x="180" y="-8"/>
-	  <point x="378" y="-8" type="curve" smooth="yes"/>
-	  <point x="575" y="-8"/>
-	  <point x="736" y="152"/>
-	  <point x="736" y="350" type="curve" smooth="yes"/>
-	  <point x="736" y="548"/>
-	  <point x="575" y="708"/>
-	  <point x="378" y="708" type="curve" smooth="yes"/>
-	</contour>
-	<contour>
-	  <point x="532" y="630"/>
-	  <point x="658" y="504"/>
-	  <point x="658" y="350" type="curve" smooth="yes"/>
-	  <point x="658" y="196"/>
-	  <point x="532" y="70"/>
-	  <point x="378" y="70" type="curve" smooth="yes"/>
-	  <point x="224" y="70"/>
-	  <point x="98" y="196"/>
-	  <point x="98" y="350" type="curve" smooth="yes"/>
-	  <point x="98" y="504"/>
-	  <point x="224" y="630"/>
-	  <point x="378" y="630" type="curve" smooth="yes"/>
-	</contour>
-	<component base="N.ss05"/>
-  </outline>
-  <lib>
-	<dict>
-	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-	  <integer>6</integer>
-	  <key>public.markColor</key>
-	  <string>0,0.67,0.91,1</string>
-	</dict>
->>>>>>> FETCH_HEAD
   </lib>
 </glyph>

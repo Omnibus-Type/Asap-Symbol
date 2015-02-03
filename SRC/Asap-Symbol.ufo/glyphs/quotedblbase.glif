@@ -3,97 +3,15 @@
   <advance width="336"/>
   <unicode hex="201E"/>
   <outline>
-<<<<<<< HEAD
-    <contour>
-      <point x="110" y="128" type="line" smooth="yes"/>
-      <point x="142" y="128"/>
-      <point x="158" y="114.001"/>
-      <point x="158" y="93.001" type="curve" smooth="yes"/>
-      <point x="158" y="-22.999"/>
-      <point x="78" y="-119.999"/>
-      <point x="40" y="-119.999" type="curve" smooth="yes"/>
-      <point x="26" y="-119.999"/>
-      <point x="4" y="-115.999"/>
-      <point x="4" y="-101.999" type="curve" smooth="yes"/>
-      <point x="4" y="-96.0488"/>
-      <point x="7.62012" y="-87.1992"/>
-      <point x="11.1602" y="-78.5293" type="curve" smooth="yes"/>
-      <point x="11.7803" y="-77.0098"/>
-      <point x="12.4004" y="-75.5"/>
-      <point x="13" y="-74" type="curve" smooth="yes"/>
-      <point x="31" y="-35"/>
-      <point x="47" y="13"/>
-      <point x="47" y="91" type="curve" smooth="yes"/>
-      <point x="47" y="113"/>
-      <point x="63" y="128"/>
-      <point x="96" y="128" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="265" y="128.001" type="line" smooth="yes"/>
-      <point x="297" y="128.001"/>
-      <point x="313.01" y="114.002"/>
-      <point x="313.01" y="93.002" type="curve" smooth="yes"/>
-      <point x="313.01" y="-22.998"/>
-      <point x="233.01" y="-119.998"/>
-      <point x="195.01" y="-119.998" type="curve" smooth="yes"/>
-      <point x="181.01" y="-119.998"/>
-      <point x="159.01" y="-115.998"/>
-      <point x="159.01" y="-101.998" type="curve" smooth="yes"/>
-      <point x="159.01" y="-96.0479"/>
-      <point x="162.62" y="-87.1982"/>
-      <point x="166.16" y="-78.5283" type="curve" smooth="yes"/>
-      <point x="166.78" y="-77.0088"/>
-      <point x="167.4" y="-75.499"/>
-      <point x="168" y="-73.999" type="curve" smooth="yes"/>
-      <point x="186" y="-34.999"/>
-      <point x="202" y="13.001"/>
-      <point x="202" y="91.001" type="curve" smooth="yes"/>
-      <point x="202" y="113.001"/>
-      <point x="218" y="128.001"/>
-      <point x="251" y="128.001" type="curve" smooth="yes"/>
-    </contour>
+    <component base="comma" xOffset="156"/>
+    <component base="comma" xOffset="1"/>
   </outline>
   <lib>
     <dict>
-      <key>com.fontlab.hintData</key>
-      <dict>
-        <key>hhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>-120</integer>
-            <key>width</key>
-            <integer>248</integer>
-          </dict>
-        </array>
-        <key>vhints</key>
-        <array>
-          <dict>
-            <key>position</key>
-            <integer>47</integer>
-            <key>width</key>
-            <integer>111</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>202</integer>
-            <key>width</key>
-            <integer>111</integer>
-          </dict>
-        </array>
-      </dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>11</integer>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
     </dict>
-=======
-	<component base="comma" xOffset="156"/>
-	<component base="comma" xOffset="1"/>
-  </outline>
-  <lib>
-	<dict>
-	  <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-	  <integer>11</integer>
-	  <key>public.markColor</key>
-	  <string>0.25,0.25,0.25,1</string>
-	</dict>
->>>>>>> FETCH_HEAD
   </lib>
 </glyph>

@@ -233,8 +233,8 @@
 		<string>o.ss01</string>
 		<string>p.ss01</string>
 		<string>a.ss03</string>
-		<string>fi</string>
-		<string>fl</string>
+		<string>uniFB01</string>
+		<string>uniFB02</string>
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
 		<string>Delta</string>
@@ -279,9 +279,9 @@
 		<string>onehalf</string>
 		<string>onequarter</string>
 		<string>threequarters</string>
-		<string>onesuperior</string>
-		<string>twosuperior</string>
-		<string>threesuperior</string>
+		<string>uni00B9</string>
+		<string>uni00B2</string>
+		<string>uni00B3</string>
 		<string>asterisk</string>
 		<string>backslash</string>
 		<string>periodcentered</string>
@@ -309,9 +309,9 @@
 		<string>emdash</string>
 		<string>endash</string>
 		<string>hyphen</string>
-		<string>softhyphen</string>
-		<string>guillemetleft</string>
-		<string>guillemetright</string>
+		<string>uni00AD</string>
+		<string>guillemotleft</string>
+		<string>guillemotright</string>
 		<string>guilsinglleft</string>
 		<string>guilsinglright</string>
 		<string>quotedblbase</string>

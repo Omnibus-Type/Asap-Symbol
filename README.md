@@ -1,12 +1,12 @@
 # Asap Symbol  
-###(*First Release*)
+###(*Release Candidate*)
 
 **Omnibus-Type**  
 *SIL Open Font License, 1.1*
 
 Asap Symbol is being developed from Asap Typeface (Regular, Italic, Bold and Bold Italic). This new font is still under development. 
 
-![Sample of Asap Symbol.](Specimen-Map/Asap-Symbol.gif "Asap Symbol")
+![Sample of Asap Symbol.](SRC/Asap-Symbol.gif "Asap Symbol")
 
 Previously Asap Typeface was designed to be used simultaneously in print and digital platforms. The technical and aesthetic characteristics of the font are both crafted for high performance typography.
 
@@ -32,7 +32,7 @@ Asap is a *contemporary sans-serif family with subtle rounded corners* typeface 
 
 ### License
 
-Copyright (c) 2014, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com) with Reserved Font Name 'Asap Symbol'
+Copyright (c) 2014-2015, Omnibus-Type (www.omnibus-type.com omnibus.type@gmail.com)
 
 Licensed under the [*SIL Open Font License, 1.1*](http://scripts.sil.org/OFL); you may not use this file except in compliance with the License.
 
@@ -42,6 +42,13 @@ This file provides detailed information on the Asap Symbol Font Software.
 This information should be distributed along with the Archivo fonts and any derivative works.
 
 *To contribute to the project contact [Omnibus Type](http://www.omnibus-type.com/).*
+
+**30 January 2015 (Omnibus-Type) Asap Symbol v.1.0**  
+- Removed Reserve Font Name from the license
+- fsType Installable Mode
+- Set Panose values
+- Updates CFF and TTF hinting
+- Added Family Alignment Zones
 
 **12 Dec 2014 (Omnibus-Type) Asap Symbol v.1.0**
 - Released verion

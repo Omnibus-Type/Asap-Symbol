@@ -1,0 +1,46 @@
+## FONTLOG for Asap Symbol fonts
+
+This file provides detailed information on the Asap Symbol Font Software.  
+This information should be distributed along with the Archivo fonts and any derivative works.
+
+30 January 2015 (Omnibus-Type) Asap Symbol v.1.0  
+- Removed Reserve Font Name from the license
+- fsType Installable Mode
+- Set Panose values
+- Updates CFF and TTF hinting
+- Added Family Alignment Zones
+
+12 Dec 2014 (Omnibus-Type) Asap Symbol v.1.0
+- Released verion
+
+*To contribute to the project contact Omnibus-Type at omnibus.type@gmail.com*
+
+### Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+**N:** **Tania Quindós**  
+**E:** omnibus.type@gmail.com  
+**W:** http://www.omnibus-type.com  
+**D:** Original Design
+
+**N:** **Elena González Miranda**  
+**E:** omnibus.type@gmail.com  
+**W:** http://www.omnibus-type.com  
+**D:** Design
+
+**N:** **Marcela Romero**  
+**E:** omnibus.type@gmail.com  
+**W:** http://www.omnibus-type.com  
+**D:** Design
+
+**N:** **Pablo Cosgaya**  
+**E:** omnibus.type@gmail.com  
+**W:** http://www.omnibus-type.com  
+**D:** Design and Production 
+
+**N:** **Nicolás Silva**  
+**E:** omnibus.type@gmail.com  
+**W:** http://www.omnibus-type.com  
+**D:** Programming 
