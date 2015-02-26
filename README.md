@@ -28,7 +28,7 @@ Asap is a *contemporary sans-serif family with subtle rounded corners* typeface 
 
 ### Design
 
-* **Asap Symbol** Tania Quindós (original design); Elena González Miranda, Marcela Romero and Pablo Cosgaya (design); Pablo Cosgaya (production); Nicolás Silva (programming).
+* **Asap Symbol** Asap Symbol was designed by T. Quindós, E. González Miranda, M. Romero and P. Cosgaya (UPV/EHU, FADU/UBA).
 
 ### License
 
@@ -61,22 +61,22 @@ This information should be distributed along with the Archivo fonts and any deri
 If you make modifications be sure to add your name (N), email (E), web-address
 (if you have one) (W) and description (D). This list is in alphabetical order.
 
-**N:** **Tania Quindós**  
+**N:** **Tania Quindós (UPV/EHU)**  
 **E:** omnibus.type@gmail.com  
 **W:** http://www.omnibus-type.com  
 **D:** Original Design
 
-**N:** **Elena González Miranda**  
+**N:** **Elena González Miranda (UPV/EHU)**  
 **E:** omnibus.type@gmail.com  
 **W:** http://www.omnibus-type.com  
 **D:** Design
 
-**N:** **Marcela Romero**  
+**N:** **Marcela Romero (FADU/UBA)**  
 **E:** omnibus.type@gmail.com  
 **W:** http://www.omnibus-type.com  
 **D:** Design
 
-**N:** **Pablo Cosgaya**  
+**N:** **Pablo Cosgaya (FADU/UBA)**  
 **E:** omnibus.type@gmail.com  
 **W:** http://www.omnibus-type.com  
 **D:** Design and Production 
