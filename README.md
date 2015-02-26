@@ -28,7 +28,7 @@ Asap is a *contemporary sans-serif family with subtle rounded corners* typeface 
 
 ### Design
 
-* **Asap Symbol** Asap Symbol was designed by T. Quindós, E. González Miranda, M. Romero and P. Cosgaya (UPV/EHU, FADU/UBA).
+* **Asap Symbol** was designed by T. Quindós, E. González Miranda, M. Romero and P. Cosgaya (UPV/EHU, FADU/UBA).
 
 ### License
 
