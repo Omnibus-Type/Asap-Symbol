@@ -64,30 +64,6 @@ code = "feature sups;\012feature frac;\012feature ordn;\012feature salt;\012feat
 name = aalt;
 },
 {
-automatic = 1;
-code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012";
-name = sups;
-},
-{
-automatic = 1;
-code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012";
-name = frac;
-},
-{
-automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
-name = ordn;
-},
-{
-automatic = 1;
-code = "sub f i by fi;\012sub f l by fl;\012";
-name = liga;
-},
-{
-code = "sub A by A.ss01;\012sub B by B.ss01;\012sub C by C.ss01;\012sub D by D.ss01;\012sub E by E.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub H by H.ss01;\012sub I by I.ss01;\012sub J by J.ss01;\012sub K by K.ss01;\012sub L by L.ss01;\012sub M by M.ss01;\012sub N by N.ss01;\012sub O by O.ss01;\012sub P by P.ss01;\012sub [Q q] by Q.ss01;\012sub [R r] by R.ss01;\012sub [S s] by S.ss01;\012sub [T t] by T.ss01;\012sub [U u] by U.ss01;\012sub a by a.ss01;\012sub b by b.ss01;\012sub c by c.ss01;\012sub d by d.ss01;\012sub e by e.ss01;\012sub f by f.ss01;\012sub g by g.ss01;\012sub h by h.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub k by k.ss01;\012sub l by l.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub o by o.ss01;\012sub p by p.ss01;\012sub one by one.ss01;\012sub two by two.ss01;\012sub three by three.ss01;\012sub four by four.ss01;\012sub five by five.ss01;\012sub six by six.ss01;\012sub seven by seven.ss01;\012sub eight by eight.ss01;";
-name = salt;
-},
-{
 code = "sub A by A.ss01;\012sub B by B.ss01;\012sub C by C.ss01;\012sub D by D.ss01;\012sub E by E.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub H by H.ss01;\012sub I by I.ss01;\012sub J by J.ss01;\012sub K by K.ss01;\012sub L by L.ss01;\012sub M by M.ss01;\012sub N by N.ss01;\012sub O by O.ss01;\012sub P by P.ss01;\012sub [Q q] by Q.ss01;\012sub [R r] by R.ss01;\012sub [S s] by S.ss01;\012sub [T t] by T.ss01;\012sub [U u] by U.ss01;\012sub a by a.ss01;\012sub b by b.ss01;\012sub c by c.ss01;\012sub d by d.ss01;\012sub e by e.ss01;\012sub f by f.ss01;\012sub g by g.ss01;\012sub h by h.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub k by k.ss01;\012sub l by l.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub o by o.ss01;\012sub p by p.ss01;\012sub one by one.ss01;\012sub two by two.ss01;\012sub three by three.ss01;\012sub four by four.ss01;\012sub five by five.ss01;\012sub six by six.ss01;\012sub seven by seven.ss01;\012sub eight by eight.ss01;\012";
 name = ss01;
 notes = "Name:\011People";
@@ -108,7 +84,7 @@ name = ss04;
 notes = "Name:\011Objects";
 },
 {
-code = "lookup signal {\012\011sub [A a] by A.ss05;\012\011sub [B b] by B.ss05;\012\011sub [C c] by C.ss05;\012\011sub [D d] by D.ss05;\012\011sub [E e] by E.ss05;\012\011sub [F f] by F.ss05;\012\011sub [G g] by G.ss05;\012\011sub [H h] by H.ss05;\012\011sub [I i] by I.ss05;\012\011sub [J j] by J.ss05;\012\011sub [X x] by X.ss05;\012} signal;\012\012lookup banned1 {\012\011sub E.ss05' X.ss05 by K.ss05;\012\011sub F.ss05' X.ss05 by L.ss05;\012\011sub G.ss05' X.ss05 by M.ss05;\012\011sub H.ss05' X.ss05 by N.ss05;\012\011sub I.ss05' X.ss05 by O.ss05;\012\011sub J.ss05' X.ss05 by P.ss05;\012} banned1;\012\012lookup banned2 {\012\011pos [K.ss05 L.ss05 M.ss05 N.ss05 O.ss05 P.ss05]' -756 X.ss05;\012} banned2;";
+code = "sub [A a] by A.ss05;\012sub [B b] by B.ss05;\012sub [C c] by C.ss05;\012sub [D d] by D.ss05;\012sub [E e] by E.ss05;\012sub [F f] by F.ss05;\012sub [G g] by G.ss05;\012sub [H h] by H.ss05;\012sub [I i] by I.ss05;\012sub [J j] by J.ss05;\012sub [X x] by X.ss05;";
 name = ss05;
 notes = "Name:\011Signal";
 },
@@ -119,8 +95,35 @@ notes = "Name:\011Arrows";
 },
 {
 automatic = 1;
+code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
+},
+{
+code = "sub f i by fi;\012sub f l by fl;\012lookup banned1 {\012\011sub E.ss05' X.ss05 by K.ss05;\012\011sub F.ss05' X.ss05 by L.ss05;\012\011sub G.ss05' X.ss05 by M.ss05;\012\011sub H.ss05' X.ss05 by N.ss05;\012\011sub I.ss05' X.ss05 by O.ss05;\012\011sub J.ss05' X.ss05 by P.ss05;\012} banned1;";
+name = liga;
+},
+{
+code = "sub A by A.ss01;\012sub B by B.ss01;\012sub C by C.ss01;\012sub D by D.ss01;\012sub E by E.ss01;\012sub F by F.ss01;\012sub G by G.ss01;\012sub H by H.ss01;\012sub I by I.ss01;\012sub J by J.ss01;\012sub K by K.ss01;\012sub L by L.ss01;\012sub M by M.ss01;\012sub N by N.ss01;\012sub O by O.ss01;\012sub P by P.ss01;\012sub [Q q] by Q.ss01;\012sub [R r] by R.ss01;\012sub [S s] by S.ss01;\012sub [T t] by T.ss01;\012sub [U u] by U.ss01;\012sub a by a.ss01;\012sub b by b.ss01;\012sub c by c.ss01;\012sub d by d.ss01;\012sub e by e.ss01;\012sub f by f.ss01;\012sub g by g.ss01;\012sub h by h.ss01;\012sub i by i.ss01;\012sub j by j.ss01;\012sub k by k.ss01;\012sub l by l.ss01;\012sub m by m.ss01;\012sub n by n.ss01;\012sub o by o.ss01;\012sub p by p.ss01;\012sub one by one.ss01;\012sub two by two.ss01;\012sub three by three.ss01;\012sub four by four.ss01;\012sub five by five.ss01;\012sub six by six.ss01;\012sub seven by seven.ss01;\012sub eight by eight.ss01;";
+name = salt;
+},
+{
+automatic = 1;
 code = "pos @Uppercase <5 0 10 0>;\012";
 name = cpsp;
+},
+{
+code = "pos [K.ss05 L.ss05 M.ss05 N.ss05 O.ss05 P.ss05]' -756 X.ss05;";
+name = kern;
 }
 );
 fontMaster = (
@@ -275,7 +278,6 @@ layers = (
 components = (
 {
 name = A;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -298,7 +300,6 @@ layers = (
 components = (
 {
 name = A;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -321,7 +322,6 @@ layers = (
 components = (
 {
 name = A;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -344,7 +344,6 @@ layers = (
 components = (
 {
 name = A;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -367,7 +366,6 @@ layers = (
 components = (
 {
 name = A;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = ring;
@@ -390,7 +388,6 @@ layers = (
 components = (
 {
 name = A;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = tilde;
@@ -629,7 +626,6 @@ layers = (
 components = (
 {
 name = C;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = cedilla;
@@ -854,7 +850,6 @@ layers = (
 components = (
 {
 name = E;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -877,7 +872,6 @@ layers = (
 components = (
 {
 name = E;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -900,7 +894,6 @@ layers = (
 components = (
 {
 name = E;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -923,7 +916,6 @@ layers = (
 components = (
 {
 name = E;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -1188,7 +1180,6 @@ layers = (
 components = (
 {
 name = I;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -1211,7 +1202,6 @@ layers = (
 components = (
 {
 name = I;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -1234,7 +1224,6 @@ layers = (
 components = (
 {
 name = I;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -1257,7 +1246,6 @@ layers = (
 components = (
 {
 name = I;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -1662,7 +1650,6 @@ layers = (
 components = (
 {
 name = N;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = tilde;
@@ -1752,7 +1739,6 @@ layers = (
 components = (
 {
 name = O;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -1775,7 +1761,6 @@ layers = (
 components = (
 {
 name = O;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -1798,7 +1783,6 @@ layers = (
 components = (
 {
 name = O;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -1821,7 +1805,6 @@ layers = (
 components = (
 {
 name = O;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -1940,7 +1923,6 @@ layers = (
 components = (
 {
 name = O;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = tilde;
@@ -2385,7 +2367,6 @@ layers = (
 components = (
 {
 name = S;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = caron;
@@ -2536,7 +2517,6 @@ layers = (
 components = (
 {
 name = U;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -2559,7 +2539,6 @@ layers = (
 components = (
 {
 name = U;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -2582,7 +2561,6 @@ layers = (
 components = (
 {
 name = U;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -2605,7 +2583,6 @@ layers = (
 components = (
 {
 name = U;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -2902,7 +2879,6 @@ layers = (
 components = (
 {
 name = Y;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -2925,7 +2901,6 @@ layers = (
 components = (
 {
 name = Y;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -3010,7 +2985,6 @@ layers = (
 components = (
 {
 name = Z;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = caron;
@@ -11192,7 +11166,6 @@ nodes = (
 components = (
 {
 name = G.ss02;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 guideLines = (
@@ -13177,7 +13150,6 @@ nodes = (
 components = (
 {
 name = E.ss03;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 guideLines = (
@@ -13406,7 +13378,6 @@ nodes = (
 components = (
 {
 name = E.ss03;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 guideLines = (
@@ -17520,7 +17491,6 @@ nodes = (
 components = (
 {
 name = K.ss05;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
@@ -17652,7 +17622,6 @@ nodes = (
 components = (
 {
 name = L.ss05;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
@@ -17856,7 +17825,6 @@ nodes = (
 components = (
 {
 name = M.ss05;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
@@ -17998,7 +17966,6 @@ nodes = (
 components = (
 {
 name = N.ss05;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
@@ -18320,7 +18287,6 @@ nodes = (
 components = (
 {
 name = O.ss05;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
@@ -18541,7 +18507,6 @@ nodes = (
 components = (
 {
 name = P.ss05;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
@@ -20296,7 +20261,6 @@ layers = (
 components = (
 {
 name = a;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -20319,7 +20283,6 @@ layers = (
 components = (
 {
 name = a;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -20342,7 +20305,6 @@ layers = (
 components = (
 {
 name = a;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -20365,7 +20327,6 @@ layers = (
 components = (
 {
 name = a;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -20388,7 +20349,6 @@ layers = (
 components = (
 {
 name = a;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = ring;
@@ -20411,7 +20371,6 @@ layers = (
 components = (
 {
 name = a;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = tilde;
@@ -20676,7 +20635,6 @@ layers = (
 components = (
 {
 name = c;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = cedilla;
@@ -20942,7 +20900,6 @@ layers = (
 components = (
 {
 name = e;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -20965,7 +20922,6 @@ layers = (
 components = (
 {
 name = e;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -20988,7 +20944,6 @@ layers = (
 components = (
 {
 name = e;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -21011,7 +20966,6 @@ layers = (
 components = (
 {
 name = e;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -21395,7 +21349,6 @@ layers = (
 components = (
 {
 name = dotlessi;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -21418,7 +21371,6 @@ layers = (
 components = (
 {
 name = dotlessi;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -21441,7 +21393,6 @@ layers = (
 components = (
 {
 name = dotlessi;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -21464,7 +21415,6 @@ layers = (
 components = (
 {
 name = dotlessi;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -21906,7 +21856,6 @@ layers = (
 components = (
 {
 name = n;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = tilde;
@@ -21996,7 +21945,6 @@ layers = (
 components = (
 {
 name = o;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -22019,7 +21967,6 @@ layers = (
 components = (
 {
 name = o;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -22042,7 +21989,6 @@ layers = (
 components = (
 {
 name = o;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -22065,7 +22011,6 @@ layers = (
 components = (
 {
 name = o;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -22184,7 +22129,6 @@ layers = (
 components = (
 {
 name = o;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = tilde;
@@ -22608,7 +22552,6 @@ layers = (
 components = (
 {
 name = s;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = caron;
@@ -22864,7 +22807,6 @@ layers = (
 components = (
 {
 name = u;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -22887,7 +22829,6 @@ layers = (
 components = (
 {
 name = u;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = circumflex;
@@ -22910,7 +22851,6 @@ layers = (
 components = (
 {
 name = u;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -22933,7 +22873,6 @@ layers = (
 components = (
 {
 name = u;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = grave;
@@ -23257,7 +23196,6 @@ layers = (
 components = (
 {
 name = y;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = acute;
@@ -23280,7 +23218,6 @@ layers = (
 components = (
 {
 name = y;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = dieresis;
@@ -23365,7 +23302,6 @@ layers = (
 components = (
 {
 name = z;
-transform = "{1, 0, 0, 1, 0, 0}";
 },
 {
 name = caron;
@@ -26368,7 +26304,6 @@ nodes = (
 components = (
 {
 name = K.ss01;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
@@ -34578,7 +34513,6 @@ layers = (
 components = (
 {
 name = comma;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "166CCA77-1BE6-4372-BC61-BAE07403C72D";
@@ -36196,7 +36130,6 @@ layers = (
 components = (
 {
 name = Y;
-transform = "{1, 0, 0, 1, 0, 0}";
 }
 );
 layerId = "166CCA77-1BE6-4372-BC61-BAE07403C72D";

@@ -43,6 +43,9 @@ This information should be distributed along with the Archivo fonts and any deri
 
 *To contribute to the project contact [Omnibus Type](http://www.omnibus-type.com/).*
 
+**25 February 2015 (Omnibus-Type) Asap Symbol v.1.0**  
+- Fixed issue with not visualitation of ss05 in the glyphs panel of Illustrator CC
+
 **30 January 2015 (Omnibus-Type) Asap Symbol v.1.0**  
 - Removed Reserve Font Name from the license
 - fsType Installable Mode
