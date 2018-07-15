@@ -1,5 +1,5 @@
 # Asap Symbol  
-###(*Release Candidate*)
+### (*Release Candidate*)
 
 **Omnibus-Type**  
 *SIL Open Font License, 1.1*
